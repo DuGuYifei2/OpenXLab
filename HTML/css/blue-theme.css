@@ -8769,6 +8769,10 @@ img.footer-logo-dark {
   padding: 0;
 }
 
+.foo-links li a {
+  font-size: 14px;
+}
+
 .foo-links.ico-10 li span {
   position: relative;
   top: 1.5px;
