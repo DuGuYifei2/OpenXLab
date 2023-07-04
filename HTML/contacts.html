@@ -8,14 +8,15 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="author" content="DSAThemes">	
+	<meta name="author" content="DSAThemes">
 	<meta name="description" content="AiToB - 你的AI助手">
-	<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">	
+	<meta name="keywords"
+		content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-			
-	  <!-- SITE TITLE -->
+
+	<!-- SITE TITLE -->
 	<title>AiToB - 你的AI助手</title>
-						
+
 	<!-- FAVICON AND TOUCH ICONS -->
 	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
 	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
@@ -26,18 +27,21 @@
 	<link rel="icon" href="images/AiToB.png" type="image/x-icon">
 
 	<!-- GOOGLE FONTS -->
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+		rel="stylesheet">
+
 	<!-- BOOTSTRAP CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-			
+
 	<link href="css/flaticon.css" rel="stylesheet">
 
-	<link href="css/menu.css" rel="stylesheet">	
+	<link href="css/menu.css" rel="stylesheet">
 	<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">	
+	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/owl.carousel.min.css" rel="stylesheet">
 	<link href="css/owl.theme.default.min.css" rel="stylesheet">
 	<link href="css/lunar.css" rel="stylesheet">
@@ -47,391 +51,434 @@
 	<link href="css/blue-theme.css" rel="stylesheet">
 
 	<link href="css/responsive.css" rel="stylesheet">
+
+	<style>
+		#wechat-icon {
+			cursor: pointer;
+		}
+
+		#qrcode-popup {
+			width: 30%;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 9998;
+			background-color: white;
+			border: 1px solid black;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			display: none;
+		}
+
+		.qrcode-container {
+			text-align: center;
+			padding: 20px;
+		}
+
+		.qrcode-container img {
+			width: 100%;
+		}
+
+		.close-button {
+			text-align: center;
+			padding: 10px;
+			cursor: pointer;
+		}
+
+		#wechat-png {
+			margin-bottom: 8px;
+			scale: 1.2;
+		}
+	</style>
 </head>
 
 
 
-	<body> 
+<body>
 
 
 
 
-		<!-- PRELOADER SPINNER
-		============================================= -->	
-		<div id="loading" class="loading--theme">
-			<div id="loading-center"><span class="loader"></span></div>
-		</div>
+	<!-- PRELOADER SPINNER
+		============================================= -->
+	<div id="loading" class="loading--theme">
+		<div id="loading-center"><span class="loader"></span></div>
+	</div>
 
 
 
 
-		<!-- PAGE CONTENT
-		============================================= -->	
-		<div id="page" class="page font--jakarta">
+	<!-- PAGE CONTENT
+		============================================= -->
+	<div id="page" class="page font--jakarta">
 
 
 
 
-			<!-- HEADER
+		<!-- HEADER
 			============================================= -->
-			<header id="header" class="tra-menu navbar-dark light-hero-header white-scroll">
-				<div class="header-wrapper">
+		<header id="header" class="tra-menu navbar-dark light-hero-header white-scroll">
+			<div class="header-wrapper">
 
 
-					<!-- MOBILE HEADER -->
-				    <div class="wsmobileheader clearfix">	  	
-				    	<span class="smllogo"><img src="images/AiToB.png" alt="mobile-logo"></span>
-				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	
-				 	</div>
+				<!-- MOBILE HEADER -->
+				<div class="wsmobileheader clearfix">
+					<span class="smllogo"><img src="images/AiToB.png" alt="mobile-logo"></span>
+					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+				</div>
 
 
-				 	<!-- NAVIGATION MENU -->
-				  	<div class="wsmainfull menu clearfix">
-	    				<div class="wsmainwp clearfix">
+				<!-- NAVIGATION MENU -->
+				<div class="wsmainfull menu clearfix">
+					<div class="wsmainwp clearfix">
 
 
-	    					<!-- HEADER BLACK LOGO -->
-	    					<div class="desktoplogo">
-	    						<a href="#hero-6" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
-	    					</div>
+						<!-- HEADER BLACK LOGO -->
+						<div class="desktoplogo">
+							<a href="#hero-6" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
+						</div>
 
 
-	    					<!-- HEADER WHITE LOGO -->
-	    					<div class="desktoplogo">
-	    						<a href="#hero-6" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
-	    					</div>
+						<!-- HEADER WHITE LOGO -->
+						<div class="desktoplogo">
+							<a href="#hero-6" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
+						</div>
 
 
-	    					<!-- MAIN MENU -->
-	      					<nav class="wsmenu clearfix">
-	        					<ul class="wsmenu-list nav-theme">
-									
-									<li class="nl-simple" aria-haspopup="true"><a href="#lnk-1" class="h-link">为什么选择我们</a></li>
-									<li class="nl-simple" aria-haspopup="true"><a href="#features-2" class="h-link">服务</a></li>
-									<li class="nl-simple" aria-haspopup="true"><a href="#lnk-2" class="h-link">创建chatbot</a></li>
-									<li class="nl-simple" aria-haspopup="true"><a href="#integrations-1" class="h-link">工具展示</a></li>
-									<li class="nl-simple" aria-haspopup="true"><a href="#about-us" class="h-link">团队信息</a></li>
+						<!-- MAIN MENU -->
+						<nav class="wsmenu clearfix">
+							<ul class="wsmenu-list nav-theme">
+
+								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-1" class="h-link">为什么选择我们</a>
+								</li>
+								<li class="nl-simple" aria-haspopup="true"><a href="#features-2" class="h-link">服务</a>
+								</li>
+								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-2" class="h-link">创建chatbot</a>
+								</li>
+								<li class="nl-simple" aria-haspopup="true"><a href="#integrations-1"
+										class="h-link">工具展示</a></li>
+								<li class="nl-simple" aria-haspopup="true"><a href="#about-us" class="h-link">团队信息</a>
+								</li>
 
 
-								    <!-- SIGN UP BUTTON -->
-								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts.html" class="btn r-04 btn--theme hover--theme last-link">Apply</a>
-								    </li>  
+								<!-- SIGN UP BUTTON -->
+								<li class="nl-simple" aria-haspopup="true">
+									<a href="contacts.html" class="btn r-04 btn--theme hover--theme last-link">Apply</a>
+								</li>
 
 
-	        					</ul>
-	        				</nav>	<!-- END MAIN MENU -->
+							</ul>
+						</nav> <!-- END MAIN MENU -->
 
 
-	    				</div>
-	    			</div>	<!-- END NAVIGATION MENU -->
+					</div>
+				</div> <!-- END NAVIGATION MENU -->
 
 
-				</div>     <!-- End header-wrapper -->
-			</header>	<!-- END HEADER -->
+			</div> <!-- End header-wrapper -->
+		</header> <!-- END HEADER -->
 
 
 
 
-			<!-- CONTACTS-1
+		<!-- CONTACTS-1
 			============================================= -->
-			<section id="contacts-1" class="pb-50 inner-page-hero contacts-section division">				
-				<div class="container">
+		<section id="contacts-1" class="pb-50 inner-page-hero contacts-section division">
+			<div class="container">
 
 
-					<!-- SECTION TITLE -->	
-					<div class="row justify-content-center">	
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title text-center mb-80">	
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title text-center mb-80">
 
-								<!-- Title -->	
-								<h2 class="s-52 w-700">想要提前试用？联系我们吧</h2>	
+							<!-- Title -->
+							<h2 class="s-52 w-700">想要提前试用？联系我们吧</h2>
 
-								<!-- Text -->	
-								<p class="p-lg">想要了解更过关于AiToB的信息？请联系我们，我们会尽快回复您的邮件。</p>
-								
-									
-							</div>	
+							<!-- Text -->
+							<p class="p-lg">想要了解更过关于AiToB的信息？请联系我们，我们会尽快回复您的邮件。</p>
+
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- CONTACT FORM -->
+				<div class="row justify-content-center">
+					<div class="col-md-11 col-lg-10 col-xl-8">
+						<div class="form-holder">
+							<form name="contactform" class="row contact-form">
+
+								<!-- Form Select -->
+								<div class="col-md-12 input-subject">
+									<p class="p-lg">这个问题是关于： </p>
+									<span>选择一个主题，以便我们知道将您的请求发送给谁：</span>
+									<select class="form-select subject" aria-label="Default select example">
+										<option selected>这个问题是关于...</option>
+										<option>申请注册/试用</option>
+										<option>其他</option>
+									</select>
+								</div>
+
+								<!-- Contact Form Input -->
+								<div class="col-md-12">
+									<p class="p-lg">您的姓名: </p>
+									<span>请输入您的真实姓名: </span>
+									<input type="text" name="name" class="form-control name" placeholder="您的姓名*">
+								</div>
+
+								<div class="col-md-12">
+									<p class="p-lg">您的邮件地址: </p>
+									<span>请仔细检查您的电子邮件地址是否准确</span>
+									<input type="text" name="email" class="form-control email" placeholder="邮件地址*">
+								</div>
+
+								<div class="col-md-12">
+									<p class="p-lg">详细解释您的问题：</p>
+									<span>您想要如何使用我们的产品或是您使用期间遇到的问题</span>
+									<textarea class="form-control message" name="message" rows="6"
+										placeholder="我的问题是..."></textarea>
+								</div>
+
+								<!-- Contact Form Button -->
+								<div class="col-md-12 mt-15 form-btn text-right">
+									<button type="submit" class="btn btn--theme hover--theme submit">发送</button>
+								</div>
+
+								<div class="contact-form-notice">
+									<p class="p-sm">我们致力于保护您的隐私。AiToB使用您提供给我们的信息与您联系，了解我们的相关内容、产品和服务。
+										您可以随时取消订阅这些通信。有关更多信息，请查看我们的 <a href="privacy.html">隐私策略</a>.
+									</p>
+								</div>
+
+								<!-- Contact Form Message -->
+								<div class="col-lg-12 contact-form-msg">
+									<span class="loading"></span>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div> <!-- END CONTACT FORM -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END CONTACTS-1 -->
+
+
+
+
+		<!-- DIVIDER LINE -->
+		<hr class="divider">
+
+
+
+
+		<!-- FOOTER-3
+			============================================= -->
+		<footer id="footer-3" class="pt-100 footer">
+			<div class="container">
+
+
+				<!-- FOOTER CONTENT -->
+				<div class="row">
+
+
+					<!-- FOOTER LOGO -->
+					<div class="col-xl-3">
+						<div class="footer-info">
+							<img class="footer-logo" src="images/AiToB.png" alt="footer-logo">
 						</div>
 					</div>
 
 
-					<!-- CONTACT FORM -->
-				 	<div class="row justify-content-center">	
-				 		<div class="col-md-11 col-lg-10 col-xl-8">
-				 			<div class="form-holder">
-								<form name="contactform" class="row contact-form">
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-4 col-md-3 col-xl-2">
+						<div class="footer-links fl-1">
 
-									<!-- Form Select -->
-									<div class="col-md-12 input-subject">
-										<p class="p-lg">这个问题是关于： </p>
-										<span>选择一个主题，以便我们知道将您的请求发送给谁：</span>
-										<select class="form-select subject" aria-label="Default select example">
-									    	<option selected>这个问题是关于...</option>	
-											<option>申请注册/试用</option>
-											<option>其他</option>
-									    </select>
-									</div>
-																						
-									<!-- Contact Form Input -->
-									<div class="col-md-12">
-										<p class="p-lg">您的姓名: </p>
-										<span>请输入您的真实姓名: </span>
-										<input type="text" name="name" class="form-control name" placeholder="您的姓名*"> 
-									</div>
-												
-									<div  class="col-md-12">
-										<p class="p-lg">您的邮件地址: </p>
-										<span>请仔细检查您的电子邮件地址是否准确</span>
-										<input type="text" name="email" class="form-control email" placeholder="邮件地址*"> 
-									</div>
-		
-									<div class="col-md-12">
-										<p class="p-lg">详细解释您的问题：</p>
-										<span>您想要如何使用我们的产品或是您使用期间遇到的问题</span>
-										<textarea class="form-control message" name="message" rows="6" placeholder="我的问题是..."></textarea>
-									</div> 
-																						
-									<!-- Contact Form Button -->
-									<div class="col-md-12 mt-15 form-btn text-right">	
-										<button type="submit" class="btn btn--theme hover--theme submit">发送请求</button>	
-									</div>
+							<!-- Title -->
+							<h6 class="s-17">Platform</h6>
 
-									<div class="contact-form-notice">
-										<p class="p-sm">我们致力于保护您的隐私。AiToB使用您提供给我们的信息与您联系，了解我们的相关内容、产品和服务。
-											您可以随时取消订阅这些通信。有关更多信息，请查看我们的 <a href="privacy.html">隐私策略</a>.
-										</p>
-									</div>
-																															
-									<!-- Contact Form Message -->
-									<div class="col-lg-12 contact-form-msg">
-										<span class="loading"></span>
-									</div>	
-																							
-								</form>	
-				 			</div>	
-				 		</div>	
-				 	</div>	   <!-- END CONTACT FORM -->
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="https://jinshuju.net/f/NEd5ST">AnyHelper Q&A System</a></p>
+								</li>
+								<li>
+									<p><a href="https://anychinavisa.com/en/">AnyVisa</a></p>
+								</li>
+								<li>
+									<p><a href="https://anychinavisa.com/en/score.php">Work Visa Evaluation System</a>
+									</p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
 
 
-				</div>	   <!-- End container -->	
-			</section>	<!-- END CONTACTS-1 -->
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-4 col-md-3 col-xl-2">
+						<div class="footer-links fl-2">
+
+							<!-- Title -->
+							<h6 class="s-17">Service</h6>
+
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="https://anychinavisa.com/en">AnyVisa</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.anychinajob.com/">AnyJob</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.anystreamers.com/">AnyStreamers</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.inchurui.com/">初锐国际</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
 
 
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-4 col-md-3 col-xl-2">
+						<div class="footer-links fl-3">
+
+							<!-- Title -->
+							<h6 class="s-17">Cooperation</h6>
+
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="http://www.sjtusp.com/Home">Shanghai JiaoTong University Science
+											Park</a></p>
+								</li>
+								<li>
+									<p><a href="http://www.chinaunicom.com.cn/">China Unicom</a></p>
+								</li>
+								<li>
+									<p><a href="http://www.ciicsh.com/ciicsh/ywsy/index.html">China International
+											Intellectech (Shanghai)</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
 
 
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-links fl-4">
+
+							<!-- Title -->
+							<h6 class="s-17">Connect With Us</h6>
+
+							<!-- Mail Link -->
+							<p class="footer-mail-link ico-25">
+								<a href="mailto:yourdomain@mail.com">anyhelper@anyhelper.cn</a>
+							</p>
+
+							<!-- Social Links -->
+							<ul class="footer-socials ico-25 text-center clearfix">
+								<li>
+									<a>
+										<span id="wechat-icon">
+											<img src="images/wechat.png" alt="WeChat" id="wechat-png">
+										</span>
+									</a>
+								</li>
+								<li><a href="https://www.facebook.com/anyhelperchina/"><span
+											class="flaticon-facebook"></span></a></li>
+								<li><a href="https://www.instagram.com/anyhelper_shanghai/"><span
+											class="flaticon-instagram"></span></a></li>
+								<li><a href="https://www.youtube.com/watch?v=vz1_7bao-es"><span
+											class="flaticon-youtube"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/anyhelper/"><span
+											class="flaticon-linkedin-logo"></span></a></li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
 
 
+				</div> <!-- END FOOTER CONTENT -->
+
+				<div id="qrcode-popup">
+					<div class="qrcode-container">
+						<img src="images/qrcode.jpg" alt="QR Code">
+					</div>
+					<div class="close-button">
+						<span>&times;</span>
+					</div>
+				</div>
+
+				<hr> <!-- FOOTER DIVIDER LINE -->
 
 
-			<!-- NEWSLETTER-1
-			============================================= -->
-			<section id="newsletter-1" class="newsletter-section">
-				<div class="newsletter-overlay">
-					<div class="container">
-						<div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
+				<!-- BOTTOM FOOTER -->
+				<div class="bottom-footer">
+					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
 
 
-							<!-- NEWSLETTER TEXT -->	
-							<div class="col">
-								<div class="newsletter-txt">	
-									<h4 class="s-34 w-700">随时了解我们的新闻、想法和更新。</h4>	
-								</div>								
+						<!-- FOOTER COPYRIGHT -->
+						<div class="col">
+							<div class="footer-copyright">
+								<p class="p-sm">&copy; 2023 Anyhelper</p>
 							</div>
+							<span><a href="http://help.anyhelper.net" target="_blank"><u>Get into Help
+										Center</u></a><br></span>
+							<span>Address: No. 928 Xikang Road, Room 317, Chuangzhan Building, Jing'an District,
+								Shanghai<br></span>
+							<span>Email: <a href="mailto:anyhelper@anyhelper.cn"
+									class="footer-link">anyhelper@anyhelper.cn</a><br></span>
+							<span>Phone: <a href="tel:+8613052558680" class="footer-link">+86 13052558680</a><br></span>
+						</div>
 
 
-							<!-- NEWSLETTER FORM -->
-							<div class="col">
-								<form class="newsletter-form">
-											
-									<div class="input-group">
-										<input type="email" autocomplete="off" class="form-control" placeholder="Your email address" required id="s-email">								
-										<span class="input-group-btn">
-											<button type="submit" class="btn btn--theme hover--theme">现在订阅</button>
-										</span>										
-									</div>
-
-									<!-- Newsletter Form Notification -->	
-									<label for="s-email" class="form-notification"></label>
-												
-								</form>							
-							</div>	  <!-- END NEWSLETTER FORM -->
+					</div> <!-- End row -->
+				</div> <!-- END BOTTOM FOOTER -->
 
 
-						</div>	  <!-- End row -->
-					</div>    <!-- End container -->	
-				</div>     <!-- End newsletter-overlay -->
-			</section>	<!-- END NEWSLETTER-1 -->
+			</div> <!-- End container -->
+		</footer> <!-- END FOOTER-3 -->
 
 
 
 
-
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
-
-
-
-			
-			<!-- FOOTER-3
-			============================================= -->
-			<footer id="footer-3" class="pt-100 footer">
-				<div class="container">
-
-
-					<!-- FOOTER CONTENT -->
-					<div class="row">
-
-
-						<!-- FOOTER LOGO -->
-						<div class="col-xl-3">
-							<div class="footer-info">
-								<img class="footer-logo" src="images/AiToB.png" alt="footer-logo">
-							</div>	
-						</div>	
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-md-3 col-xl-2">
-							<div class="footer-links fl-1">
-							
-								<!-- Title -->
-								<h6 class="s-17">Platform</h6>
-
-								<!-- Links -->
-								<ul class="foo-links clearfix">
-									<li><p><a href="https://jinshuju.net/f/NEd5ST">AnyHelper Q&A System</a></p></li>
-									<li><p><a href="https://anychinavisa.com/en/">AnyVisa</a></p></li>
-									<li><p><a href="https://anychinavisa.com/en/score.php">Work Visa Evaluation System</a></p></li>
-								</ul>
-
-							</div>
-						</div>	<!-- END FOOTER LINKS -->	
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-md-3 col-xl-2">
-							<div class="footer-links fl-2">
-												
-								<!-- Title -->
-								<h6 class="s-17">Service</h6>
-
-								<!-- Links -->
-								<ul class="foo-links clearfix">
-									<li><p><a href="https://anychinavisa.com/en">AnyVisa</a></p></li>	
-									<li><p><a href="https://www.anychinajob.com/">AnyJob</a></p></li>			
-									<li><p><a href="https://www.anystreamers.com/">AnyStreamers</a></p></li>			
-									<li><p><a href="https://www.inchurui.com/">初锐国际</a></p></li>			
-								</ul>
-
-							</div>	
-						</div>	<!-- END FOOTER LINKS -->	
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-md-3 col-xl-2">
-							<div class="footer-links fl-3">
-												
-								<!-- Title -->
-								<h6 class="s-17">Cooperation</h6>
-
-								<!-- Links -->
-								<ul class="foo-links clearfix">
-									<li><p><a href="http://www.sjtusp.com/Home">Shanghai JiaoTong University Science Park</a></p></li>										
-									<li><p><a href="http://www.chinaunicom.com.cn/">China Unicom</a></p></li>
-									<li><p><a href="http://www.ciicsh.com/ciicsh/ywsy/index.html">China International Intellectech (Shanghai)</a></p></li>
-								</ul>
-
-							</div>	
-						</div>	<!-- END FOOTER LINKS -->	
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-6 col-md-3">
-							<div class="footer-links fl-4">
-												
-								<!-- Title -->
-								<h6 class="s-17">Connect With Us</h6>
-
-								<!-- Mail Link -->
-								<p class="footer-mail-link ico-25">
-									<a href="mailto:yourdomain@mail.com">anyhelper@anyhelper.cn</a>
-								</p>
-
-								<!-- Social Links -->	
-								<ul class="footer-socials ico-25 text-center clearfix">		
-									<li><a href="https://www.facebook.com/anyhelperchina/"><span class="flaticon-facebook"></span></a></li>
-									<li><a href="https://www.instagram.com/anyhelper_shanghai/"><span class="flaticon-instagram"></span></a></li>
-									<li><a href="https://www.youtube.com/watch?v=vz1_7bao-es"><span class="flaticon-youtube"></span></a></li>
-									<li><a href="https://www.linkedin.com/company/anyhelper/"><span class="flaticon-linkedin-logo"></span></a></li>
-								</ul>
-
-							</div>	
-						</div>	<!-- END FOOTER LINKS -->	
-
-
-					</div>	<!-- END FOOTER CONTENT -->
-
-
-					<hr>	<!-- FOOTER DIVIDER LINE -->
-
-
-					<!-- BOTTOM FOOTER -->
-					<div class="bottom-footer">
-						<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col">
-								<div class="footer-copyright"><p class="p-sm">&copy; 2023 Anyhelper</p></div>
-								<span><a href="http://help.anyhelper.net" target="_blank"><u>Get into Help Center</u></a><br></span>
-		  						<span>Address: No. 928 Xikang Road, Room 317, Chuangzhan Building, Jing'an District, Shanghai<br></span>
-		  						<span>Email: <a href="mailto:anyhelper@anyhelper.cn" class="footer-link">anyhelper@anyhelper.cn</a><br></span>
-								<span>Phone: <a href="tel:+8613052558680" class="footer-link">+86 13052558680</a><br></span>
-							</div>
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- END BOTTOM FOOTER -->
-
-
-				</div>     <!-- End container -->	
-			</footer>   <!-- END FOOTER-3 -->
+	</div> <!-- END PAGE CONTENT -->
 
 
 
 
-		</div>	<!-- END PAGE CONTENT -->	
+	<!-- EXTERNAL SCRIPTS
+		============================================= -->
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/pricing-toggle.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/contact-form.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/lunar.js"></script>
+	<script src="js/wow.js"></script>
+
+	<!-- Custom Script -->
+	<script src="js/custom.js"></script>
 
 
-
-
-		<!-- EXTERNAL SCRIPTS
-		============================================= -->	
-		<script src="js/jquery-3.7.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>	
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/jquery.easing.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/menu.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/pricing-toggle.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/contact-form.js"></script>
-		<script src="js/jquery.validate.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>	
-		<script src="js/popper.min.js"></script>
-		<script src="js/lunar.js"></script>
-		<script src="js/wow.js"></script>
-				
-		<!-- Custom Script -->		
-		<script src="js/custom.js"></script>
-
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
-		<!--
+	<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+	<!--
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
@@ -443,10 +490,10 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 		</script>
-		-->	
+		-->
+	<script src="js/wechat.js" type="text/javascript"></script>
 
-
-	</body>
+</body>
 
 
 
