@@ -211,22 +211,16 @@
 		-->
 
 	<script>
-		const video = document.getElementById("video");
-		const poster = document.getElementById("poster");
-		video.addEventListener('play', () => {
-			if (!video.hasPlayed) {
-				video.hasPlayed = true;
-				poster.style.backgroundImage = 'none';
-			}
-			poster.style.display = 'none';
-		});
-
-		video.addEventListener('pause', () => {
-			poster.style.display = '';
+		$(document).ready(function () {
+			$("#video").click(function () {
+				$("#video").get(0).play();
+				$("#video").attr("controls", "controls");
+				$("#video").attr("poster", "");
+			});
 		});
 	</script>
 	<script src="js/wechat.js" type="text/javascript"></script>
-	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="aitob-iframe-123" defer></script>
+	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="MzlYak00RWhqVkpkS2Q0T21NUnR1Zz09" defer></script>
 </body>
 
 
