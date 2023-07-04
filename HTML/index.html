@@ -62,6 +62,12 @@
 			pointer-events: none;
 		}
 
+		#poster {
+			background-image: url('video/video2-cover.png');
+			background-size: cover;
+			background-position: center;
+		}
+
 		#wechat-icon {
 			cursor: pointer;
 		}
@@ -161,7 +167,7 @@
 
 								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-1" class="h-link">为什么选择我们</a>
 								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="#features-2" class="h-link">服务</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="#features-2" class="h-link">服务介绍</a>
 								</li>
 								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-2" class="h-link">创建chatbot</a>
 								</li>
@@ -777,10 +783,10 @@
 							<!-- Links -->
 							<ul class="foo-links clearfix">
 								<li>
-									<p><a href="https://jinshuju.net/f/NEd5ST">AnyHelper Q&A System</a></p>
+									<p><a href="https://anyhelper.net">AnyHelper</a></p>
 								</li>
 								<li>
-									<p><a href="https://anychinavisa.com/en/">AnyVisa</a></p>
+									<p><a href="http://www.inchurui.com/">ASK to AH.AI</a></p>
 								</li>
 								<li>
 									<p><a href="https://anychinavisa.com/en/score.php">Work Visa Evaluation System</a>
@@ -861,9 +867,9 @@
 							<ul class="footer-socials ico-25 text-center clearfix">
 								<li>
 									<a>
-									<span id="wechat-icon">
-										<img src="images/wechat.png" alt="WeChat" id="wechat-png">
-									</span>
+										<span id="wechat-icon">
+											<img src="images/wechat.png" alt="WeChat" id="wechat-png">
+										</span>
 									</a>
 								</li>
 								<li><a href="https://www.facebook.com/anyhelperchina/"><span
@@ -970,6 +976,10 @@
 		const video = document.getElementById("video");
 		const poster = document.getElementById("poster");
 		video.addEventListener('play', () => {
+			if (!video.hasPlayed) {
+				video.hasPlayed = true;
+				poster.style.backgroundImage = 'none';
+			}
 			poster.style.display = 'none';
 		});
 
@@ -978,9 +988,8 @@
 		});
 	</script>
 	<script src="js/wechat.js" type="text/javascript"></script>
+	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="aitob-iframe-123" defer></script>
 </body>
-
-
 
 
 </html>
