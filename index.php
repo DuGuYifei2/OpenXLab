@@ -1,203 +1,5 @@
-<!doctype html>
-
-<html lang="en">
-
-
-
-
-<head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="author" content="DSAThemes">
-	<meta name="description" content="AiToB - 你的AI助手">
-	<meta name="keywords"
-		content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>AiToB - 你的AI助手</title>
-
-	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
-	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/AiToB.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/AiToB.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/AiToB.png">
-	<link rel="apple-touch-icon" href="images/AiToB.png">
-	<link rel="icon" href="images/AiToB.png" type="image/x-icon">
-
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
-		rel="stylesheet">
-
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-
-	<link href="css/flaticon.css" rel="stylesheet">
-
-	<link href="css/menu.css" rel="stylesheet">
-	<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
-	<link href="css/owl.theme.default.min.css" rel="stylesheet">
-	<link href="css/lunar.css" rel="stylesheet">
-
-	<link href="css/animate.css" rel="stylesheet">
-
-	<link href="css/blue-theme.css" rel="stylesheet">
-
-	<link href="css/responsive.css" rel="stylesheet">
-
-	<style>
-		.yourDiv {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: absolute;
-			top: 0%;
-			left: 0%;
-			width: 100%;
-			height: 100%;
-			pointer-events: none;
-		}
-
-		#poster {
-			background-image: url('video/video2-cover.png');
-			background-size: cover;
-			background-position: center;
-		}
-
-		#wechat-icon {
-			cursor: pointer;
-		}
-
-		#qrcode-popup {
-			width: 30%;
-			position: fixed;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			z-index: 9998;
-			background-color: white;
-			border: 1px solid black;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-			display: none;
-		}
-
-		.qrcode-container {
-			text-align: center;
-			padding: 20px;
-		}
-
-		.qrcode-container img {
-			width: 100%;
-		}
-
-		.close-button {
-			text-align: center;
-			padding: 10px;
-			cursor: pointer;
-		}
-
-		#wechat-png {
-			margin-bottom: 8px;
-			scale: 1.2;
-		}
-	</style>
-</head>
-
-
-
-
-<body>
-
-
-
-
-	<!-- PRELOADER SPINNER
-		============================================= -->
-	<div id="loading" class="loading--theme">
-		<div id="loading-center"><span class="loader"></span></div>
-	</div>
-
-
-
-
-	<!-- PAGE CONTENT
-		============================================= -->
-	<div id="page" class="page font--jakarta">
-
-
-
-
-		<!-- HEADER
-			============================================= -->
-		<header id="header" class="tra-menu navbar-dark light-hero-header white-scroll">
-			<div class="header-wrapper">
-
-
-				<!-- MOBILE HEADER -->
-				<div class="wsmobileheader clearfix">
-					<span class="smllogo"><img src="images/AiToB.png" alt="mobile-logo"></span>
-					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-				</div>
-
-
-				<!-- NAVIGATION MENU -->
-				<div class="wsmainfull menu clearfix">
-					<div class="wsmainwp clearfix">
-
-
-						<!-- HEADER BLACK LOGO -->
-						<div class="desktoplogo">
-							<a href="#hero-6" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
-						</div>
-
-
-						<!-- HEADER WHITE LOGO -->
-						<div class="desktoplogo">
-							<a href="#hero-6" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
-						</div>
-
-
-						<!-- MAIN MENU -->
-						<nav class="wsmenu clearfix">
-							<ul class="wsmenu-list nav-theme">
-
-								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-1" class="h-link">为什么选择我们</a>
-								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="#features-2" class="h-link">服务介绍</a>
-								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="#lnk-2" class="h-link">创建chatbot</a>
-								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="#integrations-1"
-										class="h-link">工具展示</a></li>
-								<li class="nl-simple" aria-haspopup="true"><a href="#about-us" class="h-link">团队信息</a>
-								</li>
-
-
-								<!-- SIGN UP BUTTON -->
-								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts.html" class="btn r-04 btn--theme hover--theme last-link">Apply</a>
-								</li>
-
-
-							</ul>
-						</nav> <!-- END MAIN MENU -->
-
-
-					</div>
-				</div> <!-- END NAVIGATION MENU -->
-
-
-			</div> <!-- End header-wrapper -->
-		</header> <!-- END HEADER -->
-
-
-
-
-		<!-- HERO-6
+<?php include('header.php'); ?>
+	<!-- HERO-6
 			============================================= -->
 		<section id="hero-6" class="hero-section">
 			<div class="container">
@@ -436,10 +238,6 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END FEATURES-2 -->
-
-
-
-
 		<!-- BOX CONTENT
 			============================================= -->
 		<section id="lnk-2" class="pt-100 ws-wrapper content-section video-container">
@@ -490,8 +288,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/program-teacher.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/program-teacher.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -512,8 +309,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/writing-assistant.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/writing-assistant.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -534,8 +330,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/article-summary.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/article-summary.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -556,8 +351,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/profession-translator.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/profession-translator.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -578,8 +372,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/book-recommend.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/book-recommend.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -600,8 +393,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/midjourney-prompt.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/midjourney-prompt.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -643,8 +435,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/entrepreneurial-mentor.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/entrepreneurial-mentor.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -665,8 +456,7 @@
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
 									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/personal-assistant.png"
-											alt="brand-logo">
+										<img class="img-fluid" src="images/png_icons/personal-assistant.png" alt="brand-logo">
 									</div>
 								</div>
 
@@ -747,249 +537,4 @@
 				</div> <!-- End row -->
 			</div> <!-- End container -->
 		</section> <!-- END TEXT CONTENT -->
-
-
-		<!-- DIVIDER LINE -->
-		<hr class="divider">
-
-
-
-
-		<!-- FOOTER-3
-			============================================= -->
-		<footer id="footer-3" class="pt-100 footer">
-			<div class="container">
-
-
-				<!-- FOOTER CONTENT -->
-				<div class="row">
-
-
-					<!-- FOOTER LOGO -->
-					<div class="col-xl-3">
-						<div class="footer-info">
-							<img class="footer-logo" src="images/AiToB.png" alt="footer-logo">
-						</div>
-					</div>
-
-
-					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
-						<div class="footer-links fl-1">
-
-							<!-- Title -->
-							<h6 class="s-17">Platform</h6>
-
-							<!-- Links -->
-							<ul class="foo-links clearfix">
-								<li>
-									<p><a href="https://anyhelper.net">AnyHelper</a></p>
-								</li>
-								<li>
-									<p><a href="http://www.inchurui.com/">ASK to AH.AI</a></p>
-								</li>
-								<li>
-									<p><a href="https://anychinavisa.com/en/score.php">Work Visa Evaluation System</a>
-									</p>
-								</li>
-							</ul>
-
-						</div>
-					</div> <!-- END FOOTER LINKS -->
-
-
-					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
-						<div class="footer-links fl-2">
-
-							<!-- Title -->
-							<h6 class="s-17">Service</h6>
-
-							<!-- Links -->
-							<ul class="foo-links clearfix">
-								<li>
-									<p><a href="https://anychinavisa.com/en">AnyVisa</a></p>
-								</li>
-								<li>
-									<p><a href="https://www.anychinajob.com/">AnyJob</a></p>
-								</li>
-								<li>
-									<p><a href="https://www.anystreamers.com/">AnyStreamers</a></p>
-								</li>
-								<li>
-									<p><a href="https://www.inchurui.com/">初锐国际</a></p>
-								</li>
-							</ul>
-
-						</div>
-					</div> <!-- END FOOTER LINKS -->
-
-
-					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
-						<div class="footer-links fl-3">
-
-							<!-- Title -->
-							<h6 class="s-17">Cooperation</h6>
-
-							<!-- Links -->
-							<ul class="foo-links clearfix">
-								<li>
-									<p><a href="http://www.sjtusp.com/Home">Shanghai JiaoTong University Science
-											Park</a></p>
-								</li>
-								<li>
-									<p><a href="http://www.chinaunicom.com.cn/">China Unicom</a></p>
-								</li>
-								<li>
-									<p><a href="http://www.ciicsh.com/ciicsh/ywsy/index.html">China International
-											Intellectech (Shanghai)</a></p>
-								</li>
-							</ul>
-
-						</div>
-					</div> <!-- END FOOTER LINKS -->
-
-
-					<!-- FOOTER LINKS -->
-					<div class="col-sm-6 col-md-3">
-						<div class="footer-links fl-4">
-
-							<!-- Title -->
-							<h6 class="s-17">Connect With Us</h6>
-
-							<!-- Mail Link -->
-							<p class="footer-mail-link ico-25">
-								<a href="mailto:yourdomain@mail.com">anyhelper@anyhelper.cn</a>
-							</p>
-
-							<!-- Social Links -->
-							<ul class="footer-socials ico-25 text-center clearfix">
-								<li>
-									<a>
-										<span id="wechat-icon">
-											<img src="images/wechat.png" alt="WeChat" id="wechat-png">
-										</span>
-									</a>
-								</li>
-								<li><a href="https://www.facebook.com/anyhelperchina/"><span
-											class="flaticon-facebook"></span></a></li>
-								<li><a href="https://www.instagram.com/anyhelper_shanghai/"><span
-											class="flaticon-instagram"></span></a></li>
-								<li><a href="https://www.youtube.com/watch?v=vz1_7bao-es"><span
-											class="flaticon-youtube"></span></a></li>
-								<li><a href="https://www.linkedin.com/company/anyhelper/"><span
-											class="flaticon-linkedin-logo"></span></a></li>
-							</ul>
-
-						</div>
-					</div> <!-- END FOOTER LINKS -->
-
-
-				</div> <!-- END FOOTER CONTENT -->
-
-				<div id="qrcode-popup">
-					<div class="qrcode-container">
-						<img src="images/qrcode.jpg" alt="QR Code">
-					</div>
-					<div class="close-button">
-						<span>&times;</span>
-					</div>
-				</div>
-
-				<hr> <!-- FOOTER DIVIDER LINE -->
-
-
-				<!-- BOTTOM FOOTER -->
-				<div class="bottom-footer">
-					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-						<!-- FOOTER COPYRIGHT -->
-						<div class="col">
-							<div class="footer-copyright">
-								<p class="p-sm">&copy; 2023 Anyhelper</p>
-							</div>
-							<span><a href="http://help.anyhelper.net" target="_blank"><u>Get into Help
-										Center</u></a><br></span>
-							<span>Address: No. 928 Xikang Road, Room 317, Chuangzhan Building, Jing'an District,
-								Shanghai<br></span>
-							<span>Email: <a href="mailto:anyhelper@anyhelper.cn"
-									class="footer-link">anyhelper@anyhelper.cn</a><br></span>
-							<span>Phone: <a href="tel:+8613052558680" class="footer-link">+86 13052558680</a><br></span>
-						</div>
-
-
-					</div> <!-- End row -->
-				</div> <!-- END BOTTOM FOOTER -->
-
-
-			</div> <!-- End container -->
-		</footer> <!-- END FOOTER-3 -->
-
-
-
-
-	</div> <!-- END PAGE CONTENT -->
-
-
-
-
-	<!-- EXTERNAL SCRIPTS
-		============================================= -->
-	<script src="js/jquery-3.7.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/modernizr.custom.js"></script>
-	<script src="js/jquery.easing.js"></script>
-	<script src="js/jquery.appear.js"></script>
-	<script src="js/menu.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/pricing-toggle.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/request-form.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/lunar.js"></script>
-	<script src="js/wow.js"></script>
-
-	<!-- Custom Script -->
-	<script src="js/custom.js"></script>
-
-
-	<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-	<!--
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		-->
-
-	<script>
-		const video = document.getElementById("video");
-		const poster = document.getElementById("poster");
-		video.addEventListener('play', () => {
-			if (!video.hasPlayed) {
-				video.hasPlayed = true;
-				poster.style.backgroundImage = 'none';
-			}
-			poster.style.display = 'none';
-		});
-
-		video.addEventListener('pause', () => {
-			poster.style.display = '';
-		});
-	</script>
-	<script src="js/wechat.js" type="text/javascript"></script>
-	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="aitob-iframe-123" defer></script>
-</body>
-
-
-</html>
+<?php include('footer.php'); ?>
