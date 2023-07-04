@@ -239,18 +239,15 @@
 			</div> <!-- End container -->
 		</section> <!-- END FEATURES-2 -->
 		<!-- BOX CONTENT
-			============================================= -->
+		============================================= -->
 		<section id="lnk-2" class="pt-100 ws-wrapper content-section video-container">
 			<div class="container">
+				<h6 class="s-22 w-700 header-center">了解如何快速创建属于您的AI助手</h6>
+				<br>
 				<div class="bc-5-wrapper bg--04 hidd bg--scroll r-16">
-
-					<video class="video" id="video" controls="" width="100%" height="100%">
+					<video class="video" id="video" controls="" width="100%" height="100%" preload="none" poster="video/video2-cover.png">
 						<source src="video/2. 创建AI助手-logo.mp4" type="video/mp4">
 					</video>
-
-					<div id="poster" class="yourDiv">
-						<img src="./images/playvideo.png">
-					</div>
 
 				</div> <!-- End content wrapper -->
 			</div> <!-- End container -->

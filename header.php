@@ -41,22 +41,9 @@
 	<link href="css/responsive.css" rel="stylesheet">
 
 	<style>
-		.yourDiv {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: absolute;
-			top: 0%;
-			left: 0%;
-			width: 100%;
-			height: 100%;
-			pointer-events: none;
-		}
-
-		#poster {
-			background-image: url('video/video2-cover.png');
-			background-size: cover;
-			background-position: center;
+		.header-center {
+			font-size: 1.2rem;
+			margin-left: 40%;
 		}
 
 		#wechat-icon {
