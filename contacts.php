@@ -30,10 +30,10 @@
 								<!-- Form Select -->
 								<div class="col-md-12 input-subject">
 									<p class="p-lg">这个问题是关于： </p>
-									<select class="form-select subject" aria-label="Default select example">
-										<option selected>这个问题是关于...</option>
-										<option>申请注册/试用</option>
-										<option>其他</option>
+									<select class="form-select subject" name="type" id="type"  aria-label="Default select example">
+										<option selected value="">这个问题是关于...</option>
+										<option value="申请注册/试用">申请注册/试用</option>
+										<option value="其他">其他</option>
 									</select>
 								</div>
 
