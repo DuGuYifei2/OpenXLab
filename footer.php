@@ -153,8 +153,6 @@
 							<div class="footer-copyright">
 								<p class="p-sm">&copy; 2023 Anyhelper</p>
 							</div>
-							<span><a href="http://help.anyhelper.net" target="_blank"><u>Get into Help
-										Center</u></a><br></span>
 							<span>Address: No. 928 Xikang Road, Room 317, Chuangzhan Building, Jing'an District,
 								Shanghai<br></span>
 							<span>Email: <a href="mailto:anyhelper@anyhelper.cn" class="footer-link">anyhelper@anyhelper.cn</a><br></span>
