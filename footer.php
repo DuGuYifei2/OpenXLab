@@ -145,7 +145,7 @@
 
 				<!-- BOTTOM FOOTER -->
 				<div class="bottom-footer">
-					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center" style="font-size: 10px;">
 
 
 						<!-- FOOTER COPYRIGHT -->
