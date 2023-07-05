@@ -26,12 +26,10 @@
 				<div class="row justify-content-center">
 					<div class="col-md-11 col-lg-10 col-xl-8">
 						<div class="form-holder">
-							<form name="contactform" class="row contact-form">
-
+							<form name="contactform" id="contactForm" class="row contact-form" novalidate>
 								<!-- Form Select -->
 								<div class="col-md-12 input-subject">
 									<p class="p-lg">这个问题是关于： </p>
-									<span>选择一个主题，以便我们知道将您的请求发送给谁：</span>
 									<select class="form-select subject" aria-label="Default select example">
 										<option selected>这个问题是关于...</option>
 										<option>申请注册/试用</option>
@@ -40,28 +38,30 @@
 								</div>
 
 								<!-- Contact Form Input -->
-								<div class="col-md-12">
-									<p class="p-lg">您的姓名: </p>
-									<span>请输入您的真实姓名: </span>
-									<input type="text" name="name" class="form-control name" placeholder="您的姓名*">
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的姓名:</p>
+									
+									<input type="text" name="name" id="name" class="form-control name" placeholder="您的姓名*" required="required" data-validation-required-message="Please enter your name.">
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-md-12">
-									<p class="p-lg">您的邮件地址: </p>
-									<span>请仔细检查您的电子邮件地址是否准确</span>
-									<input type="text" name="email" class="form-control email" placeholder="邮件地址*">
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的邮件地址:</p>
+									<input type="email" name="email" id="email" class="form-control email" placeholder="邮件地址*" required="required" data-validation-required-message="Please enter your email.">
+									<p class="help-block text-danger"></p>
 								</div>
 
-								<div class="col-md-12">
+								<div class="col-md-12 form-group">
 									<p class="p-lg">详细解释您的问题：</p>
-									<span>您想要如何使用我们的产品或是您使用期间遇到的问题</span>
-									<textarea class="form-control message" name="message" rows="6"
-										placeholder="我的问题是..."></textarea>
+									<textarea class="form-control message" name="message" id="message" rows="6"
+										placeholder="我的问题是..." required="required" data-validation-required-message="Please enter message."></textarea>
+										<p class="help-block text-danger"></p>
 								</div>
 
 								<!-- Contact Form Button -->
 								<div class="col-md-12 mt-15 form-btn text-right">
-									<button type="submit" class="btn btn--theme hover--theme submit">发送</button>
+									<div id="success"></div>
+									<button type="submit" id="sendMessageButton" class="btn btn--theme hover--theme submit">发送</button>
 								</div>
 
 								<div class="contact-form-notice">
@@ -84,3 +84,5 @@
 			</div> <!-- End container -->
 		</section> <!-- END CONTACTS-1 -->
 <?php include('footer.php'); ?>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
