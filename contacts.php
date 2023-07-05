@@ -40,7 +40,6 @@
 								<!-- Contact Form Input -->
 								<div class="col-md-12 form-group">
 									<p class="p-lg">您的姓名:</p>
-									
 									<input type="text" name="name" id="name" class="form-control name" placeholder="您的姓名*" required="required" data-validation-required-message="Please enter your name.">
 									<p class="help-block text-danger"></p>
 								</div>
