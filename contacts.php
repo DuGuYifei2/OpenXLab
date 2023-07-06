@@ -30,17 +30,17 @@
 								<!-- Form Select -->
 								<div class="col-md-12 input-subject">
 									<p class="p-lg">这个问题是关于： </p>
-									<select class="form-select subject" aria-label="Default select example">
-										<option selected>这个问题是关于...</option>
-										<option>申请注册/试用</option>
-										<option>其他</option>
+
+									<select class="form-select subject" name="type" id="type"  aria-label="Default select example">
+										<option selected value="">这个问题是关于...</option>
+										<option value="申请注册/试用">申请注册/试用</option>
+										<option value="其他">其他</option>
 									</select>
 								</div>
 
 								<!-- Contact Form Input -->
 								<div class="col-md-12 form-group">
 									<p class="p-lg">您的姓名:</p>
-									
 									<input type="text" name="name" id="name" class="form-control name" placeholder="您的姓名*" required="required" data-validation-required-message="Please enter your name.">
 									<p class="help-block text-danger"></p>
 								</div>

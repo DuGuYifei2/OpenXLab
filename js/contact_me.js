@@ -8,6 +8,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
+      var type = $("select#type").val();
       var name = $("input#name").val();
       var email = $("input#email").val();
       var message = $("textarea#message").val();
@@ -22,6 +23,7 @@ $(function() {
         url: "https://anyhelper.net/chat/api/iframe/contact_me.php",
         type: "POST",
         data: {
+          type:type,
           name: name,
           email: email,
           message: message
