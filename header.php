@@ -19,10 +19,6 @@
 	<link rel="apple-touch-icon" href="images/AiToB.png">
 	<link rel="icon" href="images/AiToB.png" type="image/x-icon">
 
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<link href="css/flaticon.css" rel="stylesheet">
@@ -39,7 +35,7 @@
 	<link href="css/blue-theme.css" rel="stylesheet">
 
 	<link href="css/responsive.css" rel="stylesheet">
-
+	
 	<style>
 		.header-center {
 			font-size: 1.2rem;

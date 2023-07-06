@@ -180,8 +180,6 @@
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/menu.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/pricing-toggle.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/request-form.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
