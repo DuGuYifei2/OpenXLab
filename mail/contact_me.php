@@ -10,6 +10,7 @@ if(empty($_POST['name'])      ||
    echo "No arguments Provided!";
    return false;
    }
+
 $type = strip_tags(htmlspecialchars($_POST['type']));   
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));

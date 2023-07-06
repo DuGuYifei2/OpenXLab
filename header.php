@@ -85,11 +85,6 @@
 	</style>
 </head>
 <body>
-	<!-- PRELOADER SPINNER
-		============================================= -->
-	<div id="loading" class="loading--theme">
-		<div id="loading-center"><span class="loader"></span></div>
-	</div>
 	<!-- PAGE CONTENT
 		============================================= -->
 	<div id="page" class="page font--jakarta">
