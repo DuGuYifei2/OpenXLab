@@ -153,10 +153,9 @@
 							<div class="footer-copyright">
 								<p class="p-sm">&copy; 2023 Anyhelper</p>
 							</div>
-							<span>Address: No. 928 Xikang Road, Room 317, Chuangzhan Building, Jing'an District,
+							<span>Address: No. 928 Xikang Road, Room 1109, Chuangzhan Building, Jing'an District,
 								Shanghai<br></span>
 							<span>Email: <a href="mailto:anyhelper@anyhelper.cn" class="footer-link">anyhelper@anyhelper.cn</a><br></span>
-							<span>Phone: <a href="tel:+8613052558680" class="footer-link">+86 13052558680</a><br></span>
 						</div>
 
 
