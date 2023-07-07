@@ -104,13 +104,13 @@
 
 						<!-- HEADER BLACK LOGO -->
 						<div class="desktoplogo">
-							<a href="#hero-6" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
+							<a href="index.php" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
 						</div>
 
 
 						<!-- HEADER WHITE LOGO -->
 						<div class="desktoplogo">
-							<a href="#hero-6" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
+							<a href="index.php" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
 						</div>
 
 
@@ -118,16 +118,12 @@
 						<nav class="wsmenu clearfix">
 							<ul class="wsmenu-list nav-theme">
 
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" class="h-link">为什么选择我们</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" class="h-link">选择我们</a>
 								</li>
 								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" class="h-link">服务介绍</a>
 								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-2" class="h-link">创建chatbot</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-2" class="h-link">创建AI助手</a>
 								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#integrations-1" class="h-link">工具展示</a></li>
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#about-us" class="h-link">团队信息</a>
-								</li>
-
 
 								<!-- SIGN UP BUTTON -->
 								<li class="nl-simple" aria-haspopup="true">

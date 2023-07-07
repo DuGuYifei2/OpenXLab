@@ -280,7 +280,7 @@
 
 						<!-- TOOL #1 -->
 						<div class="col">
-							<a href="#" class="in_tool it-1 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-1 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -301,7 +301,7 @@
 
 						<!-- TOOL #2 -->
 						<div class="col">
-							<a href="#" class="in_tool it-2 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-2 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -322,7 +322,7 @@
 
 						<!-- TOOL #3 -->
 						<div class="col">
-							<a href="#" class="in_tool it-3 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-3 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -343,7 +343,7 @@
 
 						<!-- TOOL #4 -->
 						<div class="col">
-							<a href="#" class="in_tool it-4 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-4 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -364,7 +364,7 @@
 
 						<!-- TOOL #5 -->
 						<div class="col">
-							<a href="#" class="in_tool it-5 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-5 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -385,7 +385,7 @@
 
 						<!-- TOOL #6 -->
 						<div class="col">
-							<a href="#" class="in_tool it-6 r-12 mb-30 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-6 r-12 mb-30 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -406,7 +406,7 @@
 
 						<!-- TOOL #7 -->
 						<div class="col">
-							<a href="#" class="in_tool it-7 r-12 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-7 r-12 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -427,7 +427,7 @@
 
 						<!-- TOOL #8 -->
 						<div class="col">
-							<a href="#" class="in_tool it-8 r-12 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-8 r-12 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -448,7 +448,7 @@
 
 						<!-- TOOL #9 -->
 						<div class="col">
-							<a href="#" class="in_tool it-9 r-12 wow fadeInUp">
+							<a href="#integrations-1" class="in_tool it-9 r-12 wow fadeInUp">
 
 								<!-- Icon -->
 								<div class="in_tool-logo-wrap">
@@ -475,7 +475,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="more-btn text-center mt-60 wow fadeInUp">
-							<a class="btn btn--tra-black hover--theme">Coming Soon</a>
+							<a class="btn btn--tra-black" style="cursor: default;">Coming Soon</a>
 						</div>
 					</div>
 				</div>
@@ -505,9 +505,6 @@
 					<!-- TEXT BLOCK -->
 					<div class="col-md-6">
 						<div class="txt-block right-column wow fadeInLeft">
-
-							<!-- Section ID -->
-							<span class="section-id">关于我们</span>
 
 							<!-- Title -->
 							<h2 class="s-46 w-700">团队介绍</h2>

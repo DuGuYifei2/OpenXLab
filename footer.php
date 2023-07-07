@@ -11,17 +11,8 @@
 				<!-- FOOTER CONTENT -->
 				<div class="row">
 
-
-					<!-- FOOTER LOGO -->
-					<div class="col-xl-3">
-						<div class="footer-info">
-							<img class="footer-logo" src="images/AiToB.png" alt="footer-logo">
-						</div>
-					</div>
-
-
 					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
+					<div class="col-md-3">
 						<div class="footer-links fl-1">
 
 							<!-- Title -->
@@ -46,7 +37,7 @@
 
 
 					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
+					<div class="col-xl-2">
 						<div class="footer-links fl-2">
 
 							<!-- Title -->
@@ -73,7 +64,7 @@
 
 
 					<!-- FOOTER LINKS -->
-					<div class="col-sm-4 col-md-3 col-xl-2">
+					<div class="col-md-3">
 						<div class="footer-links fl-3">
 
 							<!-- Title -->
@@ -96,19 +87,11 @@
 
 						</div>
 					</div> <!-- END FOOTER LINKS -->
-
-
+				</div>
+				<div class="row">
 					<!-- FOOTER LINKS -->
 					<div class="col-sm-6 col-md-3">
 						<div class="footer-links fl-4">
-
-							<!-- Title -->
-							<h6 class="s-17">Connect With Us</h6>
-
-							<!-- Mail Link -->
-							<p class="footer-mail-link ico-25">
-								<a href="mailto:anyhelper@anyhelper.cn">anyhelper@anyhelper.cn</a>
-							</p>
 
 							<!-- Social Links -->
 							<ul class="footer-socials ico-25 text-center clearfix">
@@ -151,7 +134,7 @@
 						<!-- FOOTER COPYRIGHT -->
 						<div class="col">
 							<div class="footer-copyright">
-								<p class="p-sm">&copy; 2023 Anyhelper</p>
+								<p class="p-sm">&copy; 2023 AnyHelper</p>
 							</div>
 							<span>Address: No. 928 Xikang Road, Room 1109, Chuangzhan Building, Jing'an District,
 								Shanghai<br></span>
