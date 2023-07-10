@@ -77,7 +77,7 @@
 											Park</a></p>
 								</li>
 								<li>
-									<p><a href="http://www.chinaunicom.com.cn/"  target="_blank">China Unicom</a></p>
+									<p><a href="https://aiii.global/"  target="_blank">AIII 人工智能国际研究院</a></p>
 								</li>
 								<li>
 									<p><a href="http://www.ciicsh.com/ciicsh/ywsy/index.html"  target="_blank">China International

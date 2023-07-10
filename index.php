@@ -9,13 +9,13 @@
 
 						<!-- HERO TEXT -->
 						<div class="col-md-6">
-							<div class="hero-6-txt wow fadeInRight">
+							<div class="hero-6-txt wow fadeInRight" style="text-align: center;">
 
 								<!-- Title -->
-								<h2 class="s-54 w-700">秒速创建<br>你的AI数字员工</h2>
+								<h2 class="s-60 w-700">秒速创建<br>你的AI数字员工</h2>
 
 								<!-- Text -->
-								<p class="p-lg">你只需一步，即可训练专属于你的个性化AI助手，瞬间提高业务效率！
+								<p class="p-lg">你只需一步，即可训练专属于你的个性化AI助手<br>瞬间提高业务效率!
 								</p>
 
 								<!-- Button -->
@@ -31,7 +31,7 @@
 						<!-- HERO IMAGE -->
 						<div class="col-md-6">
 							<div class="hero-6-img wow fadeInLeft">
-								<img class="img-fluid" src="images/img-08.png" alt="hero-image">
+								<img class="img-fluid" src="images/a4-2.png" alt="hero-image">
 							</div>
 						</div>
 
@@ -47,11 +47,100 @@
 		<hr class="divider">
 
 
+		<!-- FEATURES-2
+			============================================= -->
+		<section id="features-2" class="pt-100 features-section division">
+			<div class="container">
+
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title mb-70">
+
+							<!-- Title -->
+							<h2 class="s-50 w-700">让AI革新你的业务</h2>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- FEATURES-2 WRAPPER -->
+				<div class="fbox-wrapper text-center">
+					<div class="row row-cols-1 row-cols-md-3">
+
+
+						<!-- FEATURE BOX #1 -->
+						<div class="col">
+							<div class="fbox-2 fb-1 wow fadeInUp">
+
+								<!-- Image -->
+								<div class="fbox-img gr--whitesmoke h-175">
+									<img class="img-fluid" src="images/newmedia.png" alt="feature-image">
+								</div>
+
+								<!-- Text -->
+								<div class="fbox-txt">
+									<h6 class="s-22 w-700">大语言模型AI客服</h6>
+									<p>与人类对话，解决问题，提供个性化建议，让您即时享受准确服务，让满意度提升到新高度。
+									</p>
+								</div>
+
+							</div>
+						</div> <!-- END FEATURE BOX #1 -->
+
+
+						<!-- FEATURE BOX #2 -->
+						<div class="col">
+							<div class="fbox-2 fb-2 wow fadeInUp">
+
+								<!-- Image -->
+								<div class="fbox-img gr--whitesmoke h-175">
+									<img class="img-fluid" src="images/f_01.png" alt="feature-image">
+								</div>
+
+								<!-- Text -->
+								<div class="fbox-txt">
+									<h6 class="s-22 w-700">AI数字员工计划</h6>
+									<p>引领数字化转型，提升工作效率，降低成本，让您的企业迈向更高的客户服务水平。
+									</p>
+								</div>
+
+							</div>
+						</div> <!-- END FEATURE BOX #2 -->
+
+
+						<!-- FEATURE BOX #3 -->
+						<div class="col">
+							<div class="fbox-2 fb-3 wow fadeInUp">
+
+								<!-- Image -->
+								<div class="fbox-img gr--whitesmoke h-175">
+									<img class="img-fluid" src="images/f_02.png" alt="feature-image">
+								</div>
+
+								<!-- Text -->
+								<div class="fbox-txt">
+									<h6 class="s-22 w-700">AI知识类服务</h6>
+									<p>专注热门AI话题与工具，通过在线和线下课程，精心为您的企业客户打造定制AI业务升级。</p>
+								</div>
+
+							</div>
+						</div> <!-- END FEATURE BOX #3 -->
+
+
+					</div> <!-- End row -->
+				</div> <!-- END FEATURES-2 WRAPPER -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END FEATURES-2 -->
 
 
 		<!-- TEXT CONTENT
 			============================================= -->
-		<section id="lnk-1" class="pt-100 ct-02 content-section division">
+			<section id="lnk-1" class="pt-100 ct-02 content-section division">
 			<div class="container">
 
 
@@ -61,9 +150,7 @@
 						<div class="section-title mb-20">
 
 							<!-- Title -->
-							<h2 class="s-46 w-700">利用我们的大语言模型AI客服
-								<br>
-								让您的业务运营更加高效
+							<h2 class="s-46 w-700">大语言模型AI客服
 							</h2>
 
 						</div>
@@ -91,10 +178,10 @@
 							<div class="txt-box">
 
 								<!-- Title -->
-								<h5 class="s-22 w-700">多语言交互能力</h5>
+								<h5 class="s-22 w-700">多语言交互</h5>
 
 								<!-- Text -->
-								<p>先进的大语言模型，AI客服可以实现多语言的智能对话，确保全球化服务的无障碍通讯。
+								<p>全球化服务，智能多语言对话，无障碍通讯。
 								</p>
 
 							</div> <!-- END TEXT BOX -->
@@ -104,40 +191,40 @@
 							<div class="txt-box mb-0">
 
 								<!-- Title -->
-								<h5 class="s-22 w-700">一键多渠道集成</h5>
+								<h5 class="s-22 w-700">一键多渠道</h5>
 
 								<!-- Text -->
-								<p>无需二次开发即可接入多个第三方平台，如微信、公众号、企业官网，实现无缝覆盖。
+								<p>快速接入多平台，无缝覆盖，便捷高效。
 								</p>
 
 							</div> <!-- END TEXT BOX -->
 							<div class="txt-box mb-0">
 
 								<!-- Title -->
-								<h5 class="s-22 w-700">快速个性化部署</h5>
+								<h5 class="s-22 w-700">个性化部署</h5>
 
 								<!-- Text -->
-								<p>依据客户自有培训文档，AI客服可进行快速个性化定制，以满足独特的业务需求。
+								<p>快速定制，满足独特需求，灵活适应。
 								</p>
 
 							</div> <!-- END TEXT BOX -->
 							<div class="txt-box mb-0">
 
 								<!-- Title -->
-								<h5 class="s-22 w-700">销售引导与CRM集成</h5>
+								<h5 class="s-22 w-700">销售引导与CRM</h5>
 
 								<!-- Text -->
-								<p>AI客服能主动引导销售，收集并整合客户信息至CRM系统，以优化客户关系管理。
+								<p>主动引导销售，优化客户管理，提升业绩。
 								</p>
 
 							</div> <!-- END TEXT BOX -->
 							<div class="txt-box mb-0">
 
 								<!-- Title -->
-								<h5 class="s-22 w-700">自动化运营管理</h5>
+								<h5 class="s-22 w-700">自动化运营</h5>
 
 								<!-- Text -->
-								<p>通过自动化流程，如聊天记录总结、风险客户屏蔽等，AI客服帮助企业提升管理效率，降低运营成本。
+								<p>提升管理效率，降低成本，智能自动化。
 								</p>
 
 							</div> <!-- END TEXT BOX -->
@@ -151,96 +238,6 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END TEXT CONTENT -->
-
-		<!-- FEATURES-2
-			============================================= -->
-		<section id="features-2" class="pt-100 features-section division">
-			<div class="container">
-
-
-				<!-- SECTION TITLE -->
-				<div class="row justify-content-center">
-					<div class="col-md-10 col-lg-9">
-						<div class="section-title mb-70">
-
-							<!-- Title -->
-							<h2 class="s-50 w-700">让AI革新你的业务沟通方式</h2>
-
-						</div>
-					</div>
-				</div>
-
-
-				<!-- FEATURES-2 WRAPPER -->
-				<div class="fbox-wrapper text-center">
-					<div class="row row-cols-1 row-cols-md-3">
-
-
-						<!-- FEATURE BOX #1 -->
-						<div class="col">
-							<div class="fbox-2 fb-1 wow fadeInUp">
-
-								<!-- Image -->
-								<div class="fbox-img gr--whitesmoke h-175">
-									<img class="img-fluid" src="images/newmedia.png" alt="feature-image">
-								</div>
-
-								<!-- Text -->
-								<div class="fbox-txt">
-									<h6 class="s-22 w-700">大语言模型AI客服</h6>
-									<p>我们的大语言模型AI客服能够理解和生成人类语言，为您的客户提供即时，准确的服务。无论是处理常见问题，还是提供个性化建议，我们的AI客服都能做到。让我们的大语言模型AI客服帮助您提升客户满意度。
-									</p>
-								</div>
-
-							</div>
-						</div> <!-- END FEATURE BOX #1 -->
-
-
-						<!-- FEATURE BOX #2 -->
-						<div class="col">
-							<div class="fbox-2 fb-2 wow fadeInUp">
-
-								<!-- Image -->
-								<div class="fbox-img gr--whitesmoke h-175">
-									<img class="img-fluid" src="images/f_01.png" alt="feature-image">
-								</div>
-
-								<!-- Text -->
-								<div class="fbox-txt">
-									<h6 class="s-22 w-700">AI数字员工计划</h6>
-									<p>我们的AI数字员工计划旨在帮助您的企业实现数字化转型。通过引入AI数字员工，您可以提高工作效率，降低运营成本，并提供更优质的客户服务。让我们的AI数字员工计划帮助您的企业步入AI时代。
-									</p>
-								</div>
-
-							</div>
-						</div> <!-- END FEATURE BOX #2 -->
-
-
-						<!-- FEATURE BOX #3 -->
-						<div class="col">
-							<div class="fbox-2 fb-3 wow fadeInUp">
-
-								<!-- Image -->
-								<div class="fbox-img gr--whitesmoke h-175">
-									<img class="img-fluid" src="images/f_02.png" alt="feature-image">
-								</div>
-
-								<!-- Text -->
-								<div class="fbox-txt">
-									<h6 class="s-22 w-700">AI知识类服务</h6>
-									<p>针对客户关心的热点Ai话题和Ai工具做定向的知识普及，通过线上及线下课程，为企业客户提供有针对性地AI业务升级梳理。</p>
-								</div>
-
-							</div>
-						</div> <!-- END FEATURE BOX #3 -->
-
-
-					</div> <!-- End row -->
-				</div> <!-- END FEATURES-2 WRAPPER -->
-
-
-			</div> <!-- End container -->
-		</section> <!-- END FEATURES-2 -->
 
 		<!-- FEATURES-13
 		============================================= -->
@@ -268,7 +265,7 @@
 										<!-- Text -->
 										<div class="fbox-txt">
 											<h5 class="s-20 w-700">企业AI升级方案评估</h5>
-											<p>对企业的现有业务和技术使用情况进行全面评估，提供详细的评估报告。</p>
+											<p>对企业的现有业务和技术使用情况进行全面评估。</p>
 										</div>
 			 						</div>
 			 						<!-- FEATURE BOX #2 -->
@@ -287,7 +284,7 @@
 										<!-- Text -->
 										<div class="fbox-txt">
 											<h5 class="s-20 w-700">AI数据知识库梳理和构建</h5>
-											<p>收集客户培训文档和知识信息，协助构建企业知识库架构和体系。</p>
+											<p>收集客户培训文档和知识，协助构建企业知识库架构和体系。</p>
 										</div>
 			 						</div>
 			 					</div>
@@ -327,7 +324,7 @@
 										<!-- Text -->
 										<div class="fbox-txt">
 											<h5 class="s-20 w-700">高度定制化或私有化部署</h5>
-											<p>根据客户的高度定制化，保密性，私有化等部署和开发需求，配合公司打造AI数字员工团队。</p>
+											<p>定制化，私有化部署和开发，配合公司打造AI数字员工团队。</p>
 										</div>
 			 						</div>
 			 					</div>
@@ -338,21 +335,29 @@
 					<div class="col-md-5 order-first order-md-2">
 						<div class="txt-block left-column wow fadeInLeft">
 							<!-- Section ID -->	
-					 		<span class="section-id">AI数字员工计划</span>
+					 		<span class="section-id">为您的企业带来革命性的改变</span>
 
 							<!-- Title -->	
-							<h2 class="s-46 w-700">为您的企业带来革命性的改变</h2>
+							<h2 class="s-46 w-700">AI数字员工计划</h2>
 							<!-- Text -->	
 							<p>无论您的企业规模如何，无论您的业务需求如何，我们的AI数字员工计划都能为您提供帮助。联系我们，让我们一起探索AI的可能性。
 							</p>
 							<!-- List -->	
 							<ul class="simple-list">
 								<li class="list-item">
-									<p>"定制您的AI解决方案"：<br>我们的团队会根据您的具体需求，为您定制AI解决方案。我们的AI数字员工不仅能够完成指定的任务，还能够与您的现有系统无缝集成。
+									<p>
+										<span style="font-weight: bold;">
+											定制您的AI解决方案
+										</span>
+										<br>我们的团队会根据您的具体需求，为您定制AI解决方案。我们的AI数字员工不仅能够完成指定的任务，还能够与您的现有系统无缝集成。
 									</p>
 								</li>
 								<li class="list-item">
-									<p class="mb-0">"持续优化和支持"：<br>我们的服务并不止于部署和训练。我们会持续监控AI的表现，并进行必要的优化，以确保AI能够持续为您的企业创造价值。
+									<p class="mb-0">
+										<span  style="font-weight: bold;">
+											持续优化和支持
+										</span>
+										<br>我们的服务并不止于部署和训练。我们会持续监控AI的表现，并进行必要的优化，以确保AI能够持续为您的企业创造价值。
 									</p>
 								</li>
 							</ul>
@@ -380,19 +385,19 @@
 							<!-- Section ID -->	
 					 		<span class="section-id">案例</span>
 							<!-- Title -->	
-							<h2 class="s-46 w-700">AI数字招聘专员(猎聘版)</h2>
+							<h2 class="s-46 w-700">AI数字招聘专员</h2>
 							<!-- List -->	
-							<ul class="simple-list">
-								<li class="list-item">
-									<p>AI自动化Mapping：<br>只需提供行业、公司或人员类型，我们的AI数字招聘专员就能自动完成猎聘搜索、总结、数据统计，并将匹配的人选导出为Excel表格。开启对话功能，还可以发送定制消息，测试人选的离职意向或了解行业信息。
+							<ul class="simple-list special-list" style="list-style: none;">
+								<li class="list-item" >
+									<p><span style="font-weight: bold;">1 AI自动化Mapping</span><br>提供行业/公司/人员类型，AI招聘专员自动搜索、总结、统计，并导出Excel表格。开启对话功能，发送定制消息，了解离职意向或行业信息。
 									</p>
 								</li>
 								<li class="list-item">
-									<p>AI自主招聘：<br>提供公司信息和岗位要求，我们的AI员工就能完成招聘策略输出、筛选条件和关键词规划，自主筛选匹配人选。开启对话功能，还可以向候选人发送匹配其背景的邀约消息，完成初步邀约工作。
+									<p><span style="font-weight: bold;">2 AI自主招聘</span><br>提供公司信息和岗位要求，AI输出招聘策略、筛选条件和关键词，自动筛选匹配人选。开启对话功能，发送背景匹配邀约消息，完成初步邀约。
 									</p>
 								</li>
 								<li class="list-item">
-									<p>AI人选匹配筛选：<br>对于主动投递的人选，AI员工将自动匹配公司喜好、岗位要求等信息，完成人选排序和整理工作，提供匹配和不匹配理由，方便人类员工完成二次审核。
+									<p><span style="font-weight: bold;">3 AI人选匹配筛选</span><br>对于主动投递的人选，AI将自动匹配公司、岗位要求等信息，完成人选排序和整理工作，提供匹配和不匹配理由，方便人类员工完成二次审核。
 									</p>
 								</li>
 							</ul>
@@ -412,9 +417,9 @@
 					<div class="col-md-6 order-last order-md-2">
 						<div class="txt-block left-column wow fadeInRight">
 							<!-- Section ID -->	
-					 		<span class="section-id">AI知识类服务</span>
+					 		<span class="section-id">提供全方位的AI学习资源</span>
 							<!-- Title -->	
-							<h2 class="s-46 w-700">提供全方位的AI学习资源</h2>
+							<h2 class="s-46 w-700">AI知识类服务</h2>
 							<!-- List -->	
 							<ul class="simple-list">
 								<li class="list-item">

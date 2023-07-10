@@ -46,6 +46,13 @@
 			cursor: pointer;
 		}
 
+        .special-list p:first-child::first-letter {
+            color: #1E90FF;
+            font-size: 2em;
+            float:left;
+            margin: 0 .2em 0 0;
+        }
+
 		#qrcode-popup {
 			width: 30%;
 			position: fixed;
