@@ -334,8 +334,6 @@
 					<!-- TEXT BLOCK -->	
 					<div class="col-md-5 order-first order-md-2">
 						<div class="txt-block left-column wow fadeInLeft">
-							<!-- Section ID -->	
-					 		<span class="section-id">为您的企业带来革命性的改变</span>
 
 							<!-- Title -->	
 							<h2 class="s-46 w-700">AI数字员工计划</h2>
@@ -382,10 +380,8 @@
 					<!-- TEXT BLOCK -->	
 					<div class="col-md-6">
 						<div class="txt-block right-column wow fadeInLeft">
-							<!-- Section ID -->	
-					 		<span class="section-id">案例</span>
 							<!-- Title -->	
-							<h2 class="s-46 w-700">AI数字招聘专员</h2>
+							<h2 class="s-46 w-700">案例：AI数字招聘专员</h2>
 							<!-- List -->	
 							<ul class="simple-list special-list" style="list-style: none;">
 								<li class="list-item" >
@@ -416,8 +412,6 @@
 					<!-- TEXT BLOCK -->	
 					<div class="col-md-6 order-last order-md-2">
 						<div class="txt-block left-column wow fadeInRight">
-							<!-- Section ID -->	
-					 		<span class="section-id">提供全方位的AI学习资源</span>
 							<!-- Title -->	
 							<h2 class="s-46 w-700">AI知识类服务</h2>
 							<!-- List -->	

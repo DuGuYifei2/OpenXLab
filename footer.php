@@ -52,9 +52,6 @@
 									<p><a href="https://www.anychinajob.com/"  target="_blank">AnyJob</a></p>
 								</li>
 								<li>
-									<p><a href="https://www.anystreamers.com/" target="_blank">AnyStreamers</a></p>
-								</li>
-								<li>
 									<p><a href="https://www.inchurui.com/" target="_blank">初锐国际</a></p>
 								</li>
 							</ul>
