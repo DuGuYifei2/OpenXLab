@@ -12,7 +12,7 @@
 							<div class="hero-6-txt wow fadeInRight" style="text-align: center;">
 
 								<!-- Title -->
-								<h2 class="s-60 w-700">秒速创建<br>你的AI数字员工</h2>
+								<h2 class="s-60 w-700">秒速创建<br>AI数字员工</h2>
 
 								<!-- Text -->
 								<p class="p-lg">你只需一步，即可训练专属于你的个性化AI助手<br>瞬间提高业务效率!
@@ -59,7 +59,7 @@
 						<div class="section-title mb-70">
 
 							<!-- Title -->
-							<h2 class="s-50 w-700">让AI革新你的业务</h2>
+							<h2 class="s-50 w-700">AiToB服务</h2>
 
 						</div>
 					</div>
@@ -69,7 +69,25 @@
 				<!-- FEATURES-2 WRAPPER -->
 				<div class="fbox-wrapper text-center">
 					<div class="row row-cols-1 row-cols-md-3">
+						
+					<!-- FEATURE BOX #2 -->
+						<div class="col">
+							<div class="fbox-2 fb-2 wow fadeInUp">
 
+								<!-- Image -->
+								<div class="fbox-img gr--whitesmoke h-175">
+									<img class="img-fluid" src="images/f_01.png" alt="feature-image">
+								</div>
+
+								<!-- Text -->
+								<div class="fbox-txt">
+									<h6 class="s-22 w-700">AI数字员工</h6>
+									<p>根据企业业务流程，定制化打造AI数字员工，提升工作效率。
+									</p>
+								</div>
+
+							</div>
+						</div> <!-- END FEATURE BOX #2 -->
 
 						<!-- FEATURE BOX #1 -->
 						<div class="col">
@@ -82,33 +100,14 @@
 
 								<!-- Text -->
 								<div class="fbox-txt">
-									<h6 class="s-22 w-700">大语言模型AI客服</h6>
-									<p>与人类对话，解决问题，提供个性化建议，让您即时享受准确服务，让满意度提升到新高度。
+									<h6 class="s-22 w-700">AI大语言模型客服</h6>
+									<p>基于先进大语言模型，24/7随时随地，准确快速解答客户问询。
 									</p>
 								</div>
 
 							</div>
 						</div> <!-- END FEATURE BOX #1 -->
 
-
-						<!-- FEATURE BOX #2 -->
-						<div class="col">
-							<div class="fbox-2 fb-2 wow fadeInUp">
-
-								<!-- Image -->
-								<div class="fbox-img gr--whitesmoke h-175">
-									<img class="img-fluid" src="images/f_01.png" alt="feature-image">
-								</div>
-
-								<!-- Text -->
-								<div class="fbox-txt">
-									<h6 class="s-22 w-700">AI数字员工计划</h6>
-									<p>引领数字化转型，提升工作效率，降低成本，让您的企业迈向更高的客户服务水平。
-									</p>
-								</div>
-
-							</div>
-						</div> <!-- END FEATURE BOX #2 -->
 
 
 						<!-- FEATURE BOX #3 -->
@@ -123,7 +122,7 @@
 								<!-- Text -->
 								<div class="fbox-txt">
 									<h6 class="s-22 w-700">AI知识类服务</h6>
-									<p>专注热门AI话题与工具，通过在线和线下课程，精心为您的企业客户打造定制AI业务升级。</p>
+									<p>提供最前沿AI资讯，针对企业打造定制化课程。</p>
 								</div>
 
 							</div>
@@ -136,113 +135,26 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END FEATURES-2 -->
-
-
-		<!-- TEXT CONTENT
-			============================================= -->
-			<section id="lnk-1" class="pt-100 ct-02 content-section division">
-			<div class="container">
-
-
-				<!-- SECTION TITLE -->
-				<div class="row justify-content-center">
-					<div class="col-md-10 col-lg-9">
-						<div class="section-title mb-20">
-
-							<!-- Title -->
-							<h2 class="s-46 w-700">大语言模型AI客服
-							</h2>
-
-						</div>
-					</div>
-				</div>
-
-
-				<!-- SECTION CONTENT (ROW) -->
-				<div class="row d-flex align-items-center">
-
-
-					<!-- IMAGE BLOCK -->
-					<div class="col-md-6">
-						<div class="img-block left-column wow fadeInRight">
-							<img class="img-fluid" src="images/img-06.png" alt="content-image">
-						</div>
-					</div>
-
-
-					<!-- TEXT BLOCK -->
-					<div class="col-md-6">
-						<div class="txt-block right-column wow fadeInLeft">
-
-							<!-- TEXT BOX -->
-							<div class="txt-box">
-
-								<!-- Title -->
-								<h5 class="s-22 w-700">多语言交互</h5>
-
-								<!-- Text -->
-								<p>全球化服务，智能多语言对话，无障碍通讯。
-								</p>
-
-							</div> <!-- END TEXT BOX -->
-
-
-							<!-- TEXT BOX -->
-							<div class="txt-box mb-0">
-
-								<!-- Title -->
-								<h5 class="s-22 w-700">一键多渠道</h5>
-
-								<!-- Text -->
-								<p>快速接入多平台，无缝覆盖，便捷高效。
-								</p>
-
-							</div> <!-- END TEXT BOX -->
-							<div class="txt-box mb-0">
-
-								<!-- Title -->
-								<h5 class="s-22 w-700">个性化部署</h5>
-
-								<!-- Text -->
-								<p>快速定制，满足独特需求，灵活适应。
-								</p>
-
-							</div> <!-- END TEXT BOX -->
-							<div class="txt-box mb-0">
-
-								<!-- Title -->
-								<h5 class="s-22 w-700">销售引导与CRM</h5>
-
-								<!-- Text -->
-								<p>主动引导销售，优化客户管理，提升业绩。
-								</p>
-
-							</div> <!-- END TEXT BOX -->
-							<div class="txt-box mb-0">
-
-								<!-- Title -->
-								<h5 class="s-22 w-700">自动化运营</h5>
-
-								<!-- Text -->
-								<p>提升管理效率，降低成本，智能自动化。
-								</p>
-
-							</div> <!-- END TEXT BOX -->
-
-						</div>
-					</div> <!-- END TEXT BLOCK -->
-
-
-				</div> <!-- END SECTION CONTENT (ROW) -->
-
-
-			</div> <!-- End container -->
-		</section> <!-- END TEXT CONTENT -->
-
+		<!-- DIVIDER LINE -->
+		<br>
+		<br>
+		<br>
+		<hr class="divider"  id="aidigit" >
+		<br>
+		<br>
+		<br>
 		<!-- FEATURES-13
 		============================================= -->
+		<div class="section-title mb-20" style="margin-bottom:-60px;">
+
+			<!-- Title -->
+			<h2 class="s-46 w-700">AI数字员工计划
+			</h2>
+		</div>
 		<section id="features-13" class="shape--bg shape--white-500 pt-100 features-section division">
+
 			<div class="container">
+
 				<div class="row d-flex align-items-center">
 					<!-- FEATURES-13 WRAPPER -->
 					<div class="col-md-7 order-last order-md-2">
@@ -335,30 +247,71 @@
 					<div class="col-md-5 order-first order-md-2">
 						<div class="txt-block left-column wow fadeInLeft">
 
-							<!-- Title -->	
-							<h2 class="s-46 w-700">AI数字员工计划</h2>
-							<!-- Text -->	
-							<p>无论您的企业规模如何，无论您的业务需求如何，我们的AI数字员工计划都能为您提供帮助。联系我们，让我们一起探索AI的可能性。
-							</p>
-							<!-- List -->	
-							<ul class="simple-list">
-								<li class="list-item">
-									<p>
-										<span style="font-weight: bold;">
-											定制您的AI解决方案
-										</span>
-										<br>我们的团队会根据您的具体需求，为您定制AI解决方案。我们的AI数字员工不仅能够完成指定的任务，还能够与您的现有系统无缝集成。
-									</p>
-								</li>
-								<li class="list-item">
-									<p class="mb-0">
-										<span  style="font-weight: bold;">
-											持续优化和支持
-										</span>
-										<br>我们的服务并不止于部署和训练。我们会持续监控AI的表现，并进行必要的优化，以确保AI能够持续为您的企业创造价值。
-									</p>
-								</li>
-							</ul>
+							<h5>案例：AI数字招聘专员</h5>
+							<!-- TEXT BLOCK -->	
+						<div>
+							<div class="txt-block right-column wow fadeInLeft">
+
+
+								<!-- CONTENT BOX #1 -->
+								<div class="cbox-2 process-step">
+									
+									<!-- Icon -->
+									<div class="ico-wrap">
+										<div class="cbox-2-ico bg--theme color--white">1</div>
+										<span class="cbox-2-line"></span>
+									</div>
+	
+									<!-- Text -->
+									<div class="cbox-2-txt">
+										<h5 class="s-22 w-700">AI自动化Mapping</h5>
+										<p>提供行业/公司/人员类型，AI招聘专员自动搜索、总结、统计，并导出Excel表格。开启对话功能，发送定制消息，了解离职意向或行业信息。
+										</p>
+									</div>
+
+								</div>	<!-- END CONTENT BOX #1 -->
+
+
+								<!-- CONTENT BOX #2 -->
+								<div class="cbox-2 process-step">
+									
+									<!-- Icon -->
+									<div class="ico-wrap">
+										<div class="cbox-2-ico bg--theme color--white">2</div>
+										<span class="cbox-2-line"></span>
+									</div>
+	
+									<!-- Text -->
+									<div class="cbox-2-txt">
+										<h5 class="s-22 w-700">AI自主招聘</h5>
+										<p>提供公司信息和岗位要求，AI输出招聘策略、筛选条件和关键词，自动筛选匹配人选。开启对话功能，发送背景匹配邀约消息，完成初步邀约。
+										</p>
+									</div>
+
+								</div>	<!-- END CONTENT BOX #2 -->
+
+
+								<!-- CONTENT BOX #3 -->
+								<div class="cbox-2 process-step">
+									
+									<!-- Icon -->
+									<div class="ico-wrap">
+										<div class="cbox-2-ico bg--theme color--white">3</div>
+									</div>
+	
+									<!-- Text -->
+									<div class="cbox-2-txt">
+										<h5 class="s-22 w-700">AI人选匹配筛选</h5>
+										<p class="mb-0">对于主动投递的人选，AI将自动匹配公司、岗位要求等信息，完成人选排序和整理工作，提供匹配和不匹配理由，方便人类员工完成二次审核。
+										</p>
+									</div>
+									
+								</div>	<!-- END CONTENT BOX #3 -->
+
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->	
+							
 						</div>
 					</div>	<!-- END TEXT BLOCK -->	
 				</div>    <!-- End row -->
@@ -366,91 +319,156 @@
 		</section>	<!-- END FEATURES-13 -->
 
 		<!-- TEXT CONTENT
-		============================================= -->
-		<section class="pt-100 ct-02 content-section division">
-			<div class="container">
-				<!-- SECTION CONTENT (ROW) -->	
+			============================================= -->
+			<section id="lnk-1" class="pt-100 ct-02 content-section division">
+			<div class="container" >
+
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title mb-20">
+
+							<!-- Title -->
+							<h2 class="s-46 w-700">大语言模型AI客服
+							</h2>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- SECTION CONTENT (ROW) -->
 				<div class="row d-flex align-items-center">
+
+
 					<!-- IMAGE BLOCK -->
 					<div class="col-md-6">
 						<div class="img-block left-column wow fadeInRight">
-							<img class="img-fluid" src="images/img-05.png" alt="content-image">
+							<img class="img-fluid" src="images/img-06.png" alt="content-image">
 						</div>
 					</div>
-					<!-- TEXT BLOCK -->	
-					<div class="col-md-6">
+
+
+					<!-- TEXT BLOCK -->
+					<div class="col-md-6" style="padding-left: 100px">
 						<div class="txt-block right-column wow fadeInLeft">
-							<!-- Title -->	
-							<h2 class="s-46 w-700">案例：AI数字招聘专员</h2>
-							<!-- List -->	
-							<ul class="simple-list special-list" style="list-style: none;">
-								<li class="list-item" >
-									<p><span style="font-weight: bold;">1 AI自动化Mapping</span><br>提供行业/公司/人员类型，AI招聘专员自动搜索、总结、统计，并导出Excel表格。开启对话功能，发送定制消息，了解离职意向或行业信息。
-									</p>
-								</li>
-								<li class="list-item">
-									<p><span style="font-weight: bold;">2 AI自主招聘</span><br>提供公司信息和岗位要求，AI输出招聘策略、筛选条件和关键词，自动筛选匹配人选。开启对话功能，发送背景匹配邀约消息，完成初步邀约。
-									</p>
-								</li>
-								<li class="list-item">
-									<p><span style="font-weight: bold;">3 AI人选匹配筛选</span><br>对于主动投递的人选，AI将自动匹配公司、岗位要求等信息，完成人选排序和整理工作，提供匹配和不匹配理由，方便人类员工完成二次审核。
-									</p>
-								</li>
-							</ul>
+
+							<!-- TEXT BOX -->
+							<div class="txt-box">
+
+								<!-- Title -->
+								<h5 class="s-22 w-700">多语言交互</h5>
+
+								<!-- Text -->
+								<p>全球化服务，智能多语言对话，无障碍通讯。
+								</p>
+
+							</div> <!-- END TEXT BOX -->
+
+
+							<!-- TEXT BOX -->
+							<div class="txt-box mb-0">
+
+								<!-- Title -->
+								<h5 class="s-22 w-700">一键多渠道</h5>
+
+								<!-- Text -->
+								<p>快速接入网页，微信，社交媒体等多平台，无缝覆盖。
+								</p>
+
+							</div> <!-- END TEXT BOX -->
+							<div class="txt-box mb-0">
+
+								<!-- Title -->
+								<h5 class="s-22 w-700">个性化部署</h5>
+
+								<!-- Text -->
+								<p>快速定制，满足独特需求，灵活适应。
+								</p>
+
+							</div> <!-- END TEXT BOX -->
+							<div class="txt-box mb-0">
+
+								<!-- Title -->
+								<h5 class="s-22 w-700">销售引导与CRM</h5>
+
+								<!-- Text -->
+								<p>主动引导销售，优化客户管理，提升业绩。
+								</p>
+
+							</div> <!-- END TEXT BOX -->
+
 						</div>
-					</div>	<!-- END TEXT BLOCK -->	
-				</div>	<!-- END SECTION CONTENT (ROW) -->	
-			</div>	   <!-- End container -->
-		</section>	<!-- END TEXT CONTENT -->
+					</div> <!-- END TEXT BLOCK -->
+
+
+				</div> <!-- END SECTION CONTENT (ROW) -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END TEXT CONTENT -->
 
 		<!-- TEXT CONTENT
-		============================================= -->
-		<section id="lnk-3" class="pt-100 ct-01 content-section division">
-			<div class="container">
-				<!-- SECTION CONTENT (ROW) -->	
-				<div class="row d-flex align-items-center">
-					<!-- TEXT BLOCK -->	
-					<div class="col-md-6 order-last order-md-2">
-						<div class="txt-block left-column wow fadeInRight">
-							<!-- Title -->	
-							<h2 class="s-46 w-700">AI知识类服务</h2>
+			============================================= -->
+			<section id="lnk-3" class="pt-100 ct-01 content-section division">
+				<div class="container">
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title mb-20">
+
+							<!-- Title -->
+							<h2 class="s-46 w-700">AI知识类服务
+							</h2>
+
+						</div>
+					</div>
+				</div>
+					<!-- SECTION CONTENT (ROW) -->	
+					<div class="row d-flex align-items-center">
+
+
+						<!-- TEXT BLOCK -->	
+						<div class="col-md-6 order-last order-md-2">
+						<div class="txt-block left-column wow fadeInRight" style="margin-left: 40px">
 							<!-- List -->	
 							<ul class="simple-list">
 								<li class="list-item">
-									<p>我们的AI知识类服务提供从基础到深度的AI学习资源。免费的AIGC资讯和定期的线下分享会让您紧跟AI行业动态。
+									<p style="font-size: 22px;">AI知识类服务提供从基础到深度的AI学习资源。<br><br>
 									</p>
 								</li>
 								<li class="list-item">
-									<p class="mb-0">10个课时的付费视频课程和定制的线下课程，由AI专家亲自授课，帮助您和您的企业深化AI知识，提升实践能力。
+									<p style="font-size: 22px;">免费AI资讯和定期线下分享会紧跟AI行业动态。<br><br>
+									</p>
+								</li>
+								<li class="list-item">
+									<p style="font-size: 22px;">由AI专家亲自授课的线上/线下付费专业课程。<br><br>
+									</p>
+								</li>
+								<li class="list-item">
+									<p style="font-size: 22px;">帮助您和您的企业深化AI知识，提升实践能力。
 									</p>
 								</li>
 							</ul>
 						</div>
-					</div>	<!-- END TEXT BLOCK -->	
-					<!-- IMAGE BLOCK -->
-					<div class="col-md-6 order-first order-md-2">
-						<div class="img-block right-column wow fadeInLeft">
-							<img class="img-fluid" src="images/img-02.png" alt="content-image">
+						</div>	<!-- END TEXT BLOCK -->	
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-6 order-first order-md-2">
+							<div class="img-block right-column wow fadeInLeft">
+								<img class="img-fluid" src="images/img-10.png" alt="content-image">
+							</div>
 						</div>
-					</div>
-				</div>	<!-- END SECTION CONTENT (ROW) -->	
-			</div>	   <!-- End container -->
-		</section>	<!-- END TEXT CONTENT -->
 
-		<!-- BOX CONTENT
-		============================================= -->
-		<section id="lnk-2" class="pt-100 ws-wrapper content-section video-container">
-			<div class="container">
-				<h6 class="s-22 w-700 text-center">了解如何快速创建属于您的AI助手</h6>
-				<br>
-				<div class="bc-5-wrapper bg--04 hidd bg--scroll r-16">
-					<video class="video" id="video" controls="" width="100%" height="100%" preload="none" poster="video/video2-cover.png">
-						<source src="video/2. 创建AI助手-logo.mp4" type="video/mp4">
-					</video>
 
-				</div> <!-- End content wrapper -->
-			</div> <!-- End container -->
-		</section> <!-- END BOX CONTENT -->
+					</div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END TEXT CONTENT -->
 
 
 		<!-- INTEGRATIONS-1
@@ -458,14 +476,13 @@
 		<section id="integrations-1" class="py-100 integrations-section">
 			<div class="container">
 
-
 				<!-- SECTION TITLE -->
 				<div class="row justify-content-center">
 					<div class="col-md-8">
-						<div class="section-title mb-70">
+						<div class="section-title">
 
 							<!-- Title -->
-							<h2 class="s-50 w-700">AI工具展示</h2>
+							<h2 class="s-50 w-700" style="z-index: 100">AI工具展示</h2>
 
 						</div>
 					</div>
@@ -474,210 +491,54 @@
 
 				<!-- INTEGRATIONS-1 WRAPPER -->
 				<div class="integrations-1-wrapper">
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
-
-
-						<!-- TOOL #1 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-1 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/program-teacher.png" alt="brand-logo">
+					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
+					<div class="slide-container" id="officer-cards">
+						<div class="img-holder">
+							<div class="card-1">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-1"></div>
+									<div class="employee-text">
+										<div>姓名: John Doe</div>
+										<div>部门: Sales</div>
+										<div>职位: Sales Manager</div>
 									</div>
+									<button id="chat-btn-1" class="start-chat-btn" onclick="startChat(1)">Chat</button>
 								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">编程老师</h6>
-									<p class="p-sm">零基础学习编程语言</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #1 -->
-
-
-						<!-- TOOL #2 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-2 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/writing-assistant.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">写作助理</h6>
-									<p class="p-sm">帮你轻松撰写文案</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #2 -->
-
-
-						<!-- TOOL #3 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-3 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/article-summary.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">总结文档</h6>
-									<p class="p-sm">快速查找文档重点内容</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #3 -->
-
-
-						<!-- TOOL #4 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-4 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/profession-translator.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">专业翻译</h6>
-									<p class="p-sm">多国语言转换无压力</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #4 -->
-
-
-						<!-- TOOL #5 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-5 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/book-recommend.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">书籍推荐</h6>
-									<p class="p-sm">根据你的喜好推荐阅读清单</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #5 -->
-
-
-						<!-- TOOL #6 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-6 r-12 mb-30 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/midjourney-prompt.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">Midjourney提示</h6>
-									<p class="p-sm">根据你想要的风格优化你的提示词</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #6 -->
-
-
-						<!-- TOOL #7 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-7 r-12 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/music-master.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">音乐大师</h6>
-									<p class="p-sm">帮助写歌谱曲</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #7 -->
-
-
-						<!-- TOOL #8 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-8 r-12 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/entrepreneurial-mentor.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">创业导师</h6>
-									<p class="p-sm">根据你的想法创建商业计划</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #8 -->
-
-
-						<!-- TOOL #9 -->
-						<div class="col">
-							<a href="#integrations-1" class="in_tool it-9 r-12 wow fadeInUp">
-
-								<!-- Icon -->
-								<div class="in_tool-logo-wrap">
-									<div class="in_tool-logo ico-60">
-										<img class="img-fluid" src="images/png_icons/personal-assistant.png" alt="brand-logo">
-									</div>
-								</div>
-
-								<!-- Text -->
-								<div class="in_tool-txt">
-									<h6 class="s-20 w-700">个人助理</h6>
-									<p class="p-sm">帮助你优化工作计划</p>
-								</div>
-
-							</a>
-						</div> <!-- END FEATURE BOX #9 -->
-
-
-					</div>
-				</div> <!-- END INTEGRATIONS-1 WRAPPER -->
-
-
-				<!-- MORE BUTTON -->
-				<div class="row">
-					<div class="col">
-						<div class="more-btn text-center mt-60 wow fadeInUp">
-							<a class="btn btn--tra-black" style="cursor: default;">Coming Soon</a>
+							</div>
 						</div>
+
+						<div class="img-holder">
+							<div class="card-2">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-2"></div>
+									<div class="employee-text">
+										<div>姓名: John Doe</div>
+										<div>部门: Sales</div>
+										<div>职位: Sales Manager</div>
+									</div>
+									<button id="chat-btn2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
+								</div>
+							</div>
+						</div> 
+
+						<div class="img-holder">
+							<div class="card-3">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-3"></div>
+									<div class="employee-text">
+										<div>姓名: John Doe</div>
+										<div>部门: Sales</div>
+										<div>职位: Sales Manager</div>
+									</div>
+									<button id="chat-btn3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
+								</div>
+							</div>
+						</div> 
 					</div>
-				</div>
+					
+				</div> <!-- END INTEGRATIONS-1 WRAPPER -->
 
 
 			</div> <!-- End container -->

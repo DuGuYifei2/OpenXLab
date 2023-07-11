@@ -1,0 +1,115 @@
+.slide-container .img-holder {
+    width: 350px;
+    height: 506px;
+    position: absolute;
+    background-color: #420664;
+    visiblity: hidden;
+    opacity: 0;
+    top: 50px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.slide-container {
+    margin: 0 0;
+    position: relative;
+    height: 506px;
+    width: 100%;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/officer/3.jpg");
+    box-shadow: 0px 1px 6px 3px #1E277A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/officer/1.jpg");
+    box-shadow: 0px 1px 6px 3px #143E92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/officer/8.jpg");
+    box-shadow: 0px 1px 6px 3px #1E277A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.employee-image {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#employee-image-1 {
+    background-image: url("../images/officer/profile/1.png");
+}
+
+#employee-image-2 {
+    background-image: url("../images/officer/profile/2.png");
+}
+
+#employee-image-3 {
+    background-image: url("../images/officer/profile/3.png");
+}
+
+.employee-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+}
+
+.start-chat-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.start-chat-btn:hover {
+    background-color: #0062cc;
+}
+
+.chat-iframe {
+    z-index: 100;
+}

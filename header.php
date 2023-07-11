@@ -13,11 +13,11 @@
 
 	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
 	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/AiToB.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/AiToB.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/AiToB.png">
-	<link rel="apple-touch-icon" href="images/AiToB.png">
-	<link rel="icon" href="images/AiToB.png" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon-32x32.png">
+	<link rel="apple-touch-icon" href="images/favicon-32x32.png">
+	<link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,7 +35,7 @@
 	<link href="css/blue-theme.css" rel="stylesheet">
 
 	<link href="css/responsive.css" rel="stylesheet">
-	
+	<link href="css/slide.css" rel="stylesheet">
 	<style>
 		.header-center {
 			font-size: 1.2rem;
@@ -124,12 +124,20 @@
 						<!-- MAIN MENU -->
 						<nav class="wsmenu clearfix">
 							<ul class="wsmenu-list nav-theme">
+								
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" class="h-link">AiToB服务</a>
+								</li>
+								
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#aidigit" class="h-link">AI数字员工</a>
+								</li>
+								
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" class="h-link">AI大语言模型客服</a>
+								</li>
 
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" class="h-link">选择我们</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-3" class="h-link">AI知识类服务</a>
 								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" class="h-link">服务介绍</a>
-								</li>
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-2" class="h-link">创建AI助手</a>
+
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#integrations-1" class="h-link">AI助手体验</a>
 								</li>
 
 								<!-- SIGN UP BUTTON -->

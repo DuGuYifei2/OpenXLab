@@ -12,7 +12,7 @@
 				<div class="row">
 
 					<!-- FOOTER LINKS -->
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="footer-links fl-1">
 
 							<!-- Title -->
@@ -37,7 +37,7 @@
 
 
 					<!-- FOOTER LINKS -->
-					<div class="col-xl-2">
+					<div class="col-xl-3">
 						<div class="footer-links fl-2">
 
 							<!-- Title -->
@@ -61,7 +61,7 @@
 
 
 					<!-- FOOTER LINKS -->
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="footer-links fl-3">
 
 							<!-- Title -->
@@ -77,8 +77,7 @@
 									<p><a href="https://aiii.global/"  target="_blank">AIII 人工智能国际研究院</a></p>
 								</li>
 								<li>
-									<p><a href="http://www.ciicsh.com/ciicsh/ywsy/index.html"  target="_blank">China International
-											Intellectech (Shanghai)</a></p>
+									<p><a href="https://goglobalgeo.cn/zh-hans/"  target="_blank">Goglobal</a></p>
 								</li>
 							</ul>
 
@@ -89,9 +88,9 @@
 					<!-- FOOTER LINKS -->
 					<div class="col-sm-6 col-md-3">
 						<div class="footer-links fl-4">
-
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 							<!-- Social Links -->
-							<ul class="footer-socials ico-25 text-center clearfix">
+							<ul class="footer-socials ico-25 text-center clearfix" style="scale: 140%;">
 								<li>
 									<a>
 										<span id="wechat-icon">
@@ -195,7 +194,10 @@
 		});
 	</script>
 	<script src="js/wechat.js" type="text/javascript"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/slide.js"></script>
 	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="MzlYak00RWhqVkpkS2Q0T21NUnR1Zz09" defer></script>
+	<script src="js/chat.js"></script>
 </body>
 
 

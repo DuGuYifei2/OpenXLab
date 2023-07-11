@@ -64,12 +64,6 @@
 									<button type="submit" id="sendMessageButton" class="btn btn--theme hover--theme submit">发送</button>
 								</div>
 
-								<div class="contact-form-notice">
-									<p class="p-sm">我们致力于保护您的隐私。AiToB使用您提供给我们的信息与您联系，了解我们的相关内容、产品和服务。
-										您可以随时取消订阅这些通信。有关更多信息，请查看我们的 <a href="privacy.html">隐私策略</a>.
-									</p>
-								</div>
-
 								<!-- Contact Form Message -->
 								<div class="col-lg-12 contact-form-msg">
 									<span class="loading"></span>
