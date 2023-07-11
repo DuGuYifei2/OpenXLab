@@ -491,18 +491,18 @@
 
 				<!-- INTEGRATIONS-1 WRAPPER -->
 				<div class="integrations-1-wrapper">
-					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
-					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
-					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/aitob-iframe-123" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/MWJyQ2owTGFESWkxbFpkcVNIcnRXdz09" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/WDFSQnY2U3Evc2t6MUo2dEVRK3Y5Zz09" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/ZTVVc0RvQ0NkaTJqcUJkM01nYjhLZz09" style="display: none;"></iframe>
 					<div class="slide-container" id="officer-cards">
 						<div class="img-holder">
 							<div class="card-1">
 								<div class="employee-info">
 									<div class="employee-image" id="employee-image-1"></div>
 									<div class="employee-text">
-										<div>姓名: John Doe</div>
-										<div>部门: Sales</div>
-										<div>职位: Sales Manager</div>
+										<div>姓名: Jessica</div>
+										<div>职位: HR</div>
+										<div>职能: 撰写英文JD</div>
 									</div>
 									<button id="chat-btn-1" class="start-chat-btn" onclick="startChat(1)">Chat</button>
 								</div>
@@ -515,8 +515,8 @@
 									<div class="employee-image" id="employee-image-2"></div>
 									<div class="employee-text">
 										<div>姓名: John Doe</div>
-										<div>部门: Sales</div>
-										<div>职位: Sales Manager</div>
+										<div>职位: 专业翻译</div>
+										<div>职能: 可以将任意语言翻译为英文</div>
 									</div>
 									<button id="chat-btn2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
 								</div>
@@ -528,9 +528,9 @@
 								<div class="employee-info">
 									<div class="employee-image" id="employee-image-3"></div>
 									<div class="employee-text">
-										<div>姓名: John Doe</div>
-										<div>部门: Sales</div>
-										<div>职位: Sales Manager</div>
+										<div>姓名: Rebecca</div>
+										<div>职位: 文案编辑</div>
+										<div>职能: 小红书营销助手</div>
 									</div>
 									<button id="chat-btn3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
 								</div>

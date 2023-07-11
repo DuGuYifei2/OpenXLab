@@ -111,5 +111,8 @@
 }
 
 .chat-iframe {
+    margin-top: 35px;
     z-index: 100;
+    box-shadow: 0px 1px 6px 3px #302e2e9d;
+    border-radius: 5px;
 }
