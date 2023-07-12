@@ -1,7 +1,7 @@
 var $imgs = $('.slide-container .img-holder');
 var l = $imgs.length;
 var radius = 400;
-
+var curChatImgIndex = 1;
 
 TweenMax.set($('.slide-container'), {
     css: {
@@ -87,3 +87,20 @@ showImgAt(1);
 $imgs.on('click',function(){   
    showImgAt($imgs.index($(this)));
 }); 
+
+//左右滑动
+$imgs.on('swiperight',function(){
+    if(curChatImgIndex === 0){
+        return;
+    }
+    curChatImgIndex--;
+    showImgAt(curChatImgIndex);
+});
+
+$imgs.on('swipeleft',function(){
+    if(curChatImgIndex === l-1){
+        return;
+    }
+    curChatImgIndex++;
+    showImgAt(curChatImgIndex);
+});

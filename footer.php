@@ -164,6 +164,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/lunar.js"></script>
 	<script src="js/wow.js"></script>
+	<script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 
 	<!-- Custom Script -->
 	<script src="js/custom.js"></script>
