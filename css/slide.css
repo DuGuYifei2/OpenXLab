@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
 }
 
 .card-1 {
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: auto;
 }
 
 .card-2 {
@@ -39,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: auto;
 }
 
 .card-3 {
@@ -49,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: auto;
 }
 
 .employee-info {
