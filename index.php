@@ -518,7 +518,7 @@
 										<div>职位: 专业翻译</div>
 										<div>职能: 可以将任意语言翻译为英文</div>
 									</div>
-									<button id="chat-btn2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
+									<button id="chat-btn-2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
 								</div>
 							</div>
 						</div> 
@@ -532,7 +532,7 @@
 										<div>职位: 文案编辑</div>
 										<div>职能: 小红书营销助手</div>
 									</div>
-									<button id="chat-btn3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
+									<button id="chat-btn-3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
 								</div>
 							</div>
 						</div> 
