@@ -19,7 +19,7 @@
 								</p>
 
 								<!-- Button -->
-								<a href="contacts.php" class="btn r-04 btn--theme hover--theme">即刻免费试用</a>
+								<a href="contacts.php" target="_parent" class="btn r-04 btn--theme hover--theme">即刻免费试用</a>
 								<!-- <p class="p-sm btn-txt ico-15">
 										<span class="flaticon-check"></span> No credit card needed, free 14-day trial
 									</p> -->

@@ -111,13 +111,13 @@
 
 						<!-- HEADER BLACK LOGO -->
 						<div class="desktoplogo">
-							<a href="index.php" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
+							<a href="index.php" target="_parent" class="logo-black"><img src="images/AiToB.png" alt="logo"></a>
 						</div>
 
 
 						<!-- HEADER WHITE LOGO -->
 						<div class="desktoplogo">
-							<a href="index.php" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
+							<a href="index.php" target="_parent" class="logo-white"><img src="images/AiToB.png" alt="logo"></a>
 						</div>
 
 
@@ -125,24 +125,24 @@
 						<nav class="wsmenu clearfix">
 							<ul class="wsmenu-list nav-theme">
 								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" class="h-link">AiToB服务</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" target="_parent" class="h-link">AiToB服务</a>
 								</li>
 								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#aidigit" class="h-link">AI数字员工</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#aidigit" target="_parent" class="h-link">AI数字员工</a>
 								</li>
 								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" class="h-link">AI大语言模型客服</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" target="_parent" class="h-link">AI大语言模型客服</a>
 								</li>
 
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-3" class="h-link">AI知识类服务</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-3" target="_parent" class="h-link">AI知识类服务</a>
 								</li>
 
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#integrations-1" class="h-link">AI助手体验</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#integrations-1" target="_parent" class="h-link">AI助手体验</a>
 								</li>
 
 								<!-- SIGN UP BUTTON -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts.php" class="btn r-04 btn--theme hover--theme last-link">Apply</a>
+									<a href="contacts.php" target="_parent" class="btn r-04 btn--theme hover--theme last-link">Apply</a>
 								</li>
 
 
