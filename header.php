@@ -9,7 +9,7 @@
 	<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>AiToB - 你的AI助手</title>
+	<title>AiToB - 定制AI数字员工</title>
 
 	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
 	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
