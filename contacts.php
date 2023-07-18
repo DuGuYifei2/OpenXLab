@@ -71,7 +71,7 @@
 								<div class="col-md-12 form-group">
 									<p class="p-lg">其他您想讲的:</p>
 									<textarea class="form-control message" name="message" id="message" rows="6"
-										placeholder="*(更好的描述您的AI需求，会让我们更快速的提供帮助，您也可以联系我们右下角的AI助手了解我们更多的信息)" required="required" data-validation-required-message="Please enter message."></textarea>
+										placeholder="(更好的描述您的AI需求，会让我们更快速的提供帮助，您也可以联系我们右下角的AI助手了解我们更多的信息)"></textarea>
 										<p class="help-block text-danger"></p>
 								</div>
 
