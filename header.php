@@ -13,11 +13,7 @@
 
 	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
 	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon-32x32.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon-32x32.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon-32x32.png">
 	<link rel="apple-touch-icon" href="images/favicon-32x32.png">
-	<link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
