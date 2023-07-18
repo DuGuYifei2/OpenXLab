@@ -350,7 +350,7 @@
 
 
 					<!-- TEXT BLOCK -->
-					<div class="col-md-6" style="padding-left: 100px">
+					<div class="col-md-6" style="padding-left: 50px; padding-right: 45px">
 						<div class="txt-block right-column wow fadeInLeft">
 
 							<!-- TEXT BOX -->
@@ -563,7 +563,7 @@
 
 					<!-- TEXT BLOCK -->
 					<div class="col-md-6">
-						<div class="txt-block right-column wow fadeInLeft">
+						<div class="txt-block right-column wow fadeInLeft" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 
 							<!-- Title -->
 							<h2 class="s-46 w-700">团队介绍</h2>

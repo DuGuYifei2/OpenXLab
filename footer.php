@@ -89,7 +89,7 @@
 						<div class="footer-links fl-4">
 							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 							<!-- Social Links -->
-							<ul class="footer-socials ico-25 text-center clearfix" style="scale: 140%;">
+							<ul class="footer-socials ico-25 text-center clearfix" style="scale: 140%; margin-left: 10px;">
 								<li>
 									<a>
 										<span id="wechat-icon">
