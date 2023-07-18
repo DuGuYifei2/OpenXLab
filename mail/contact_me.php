@@ -5,7 +5,6 @@ header("Access-Control-Allow-Headers: Content-Type");
 if(empty($_POST['name'])      ||
    empty($_POST['company'])     ||
    empty($_POST['email'])     ||
-   empty($_POST['message'])   ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
    echo "No arguments Provided!";
