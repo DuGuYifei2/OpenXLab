@@ -11,10 +11,10 @@
 						<div class="section-title text-center mb-80">
 
 							<!-- Title -->
-							<h2 class="s-52 w-700">想要提前试用？联系我们吧</h2>
+							<h2 class="s-52 w-700">想要体验更多AiToB的产品？联系我们吧！</h2>
 
 							<!-- Text -->
-							<p class="p-lg">想要了解更过关于AiToB的信息？请联系我们，我们会尽快回复您的邮件。</p>
+							<p class="p-lg">我们的AI产品经理会在24小时内联系您！</p>
 
 
 						</div>
@@ -29,11 +29,16 @@
 							<form name="contactform" id="contactForm" class="row contact-form" novalidate>
 								<!-- Form Select -->
 								<div class="col-md-12 input-subject">
-									<p class="p-lg">这个问题是关于： </p>
+									<p class="p-lg">您想要:</p>
 
 									<select class="form-select subject" name="type" id="type"  aria-label="Default select example">
-										<option selected value="">这个问题是关于...</option>
-										<option value="申请注册/试用">申请注册/试用</option>
+										<option selected value="">(请选择一个您的需求)</option>
+										<option value="免费创建自己的AI助手">免费创建自己的AI助手</option>
+										<option value="免费获取最新AI资讯">免费获取最新AI资讯</option>
+										<option value="获得1个月免费的微信AI助手使用权限">获得1个月免费的微信AI助手使用权限</option>
+										<option value="付费定制AI数字员工">付费定制AI数字员工</option>
+										<option value="付费购买大语言模型AI客服">付费购买大语言模型AI客服</option>
+										<option value="付费定制AI培训课程">付费定制AI培训课程</option>
 										<option value="其他">其他</option>
 									</select>
 								</div>
@@ -41,20 +46,32 @@
 								<!-- Contact Form Input -->
 								<div class="col-md-12 form-group">
 									<p class="p-lg">您的姓名:</p>
-									<input type="text" name="name" id="name" class="form-control name" placeholder="您的姓名*" required="required" data-validation-required-message="Please enter your name.">
+									<input type="text" name="name" id="name" class="form-control name" placeholder="*(您的姓名)" required="required" data-validation-required-message="Please enter your name.">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的公司:</p>
+									<input type="text" name="company" id="company" class="form-control name" placeholder="*(完整的公司全称会让我们第一时间为您提供AI服务)" required="required" data-validation-required-message="Please enter your company.">
 									<p class="help-block text-danger"></p>
 								</div>
 
 								<div class="col-md-12 form-group">
 									<p class="p-lg">您的邮件地址:</p>
-									<input type="email" name="email" id="email" class="form-control email" placeholder="邮件地址*" required="required" data-validation-required-message="Please enter your email.">
+									<input type="email" name="email" id="email" class="form-control email" placeholder="*(准确的邮箱可以确保我们能联系到您)" required="required" data-validation-required-message="Please enter your email.">
 									<p class="help-block text-danger"></p>
 								</div>
 
 								<div class="col-md-12 form-group">
-									<p class="p-lg">详细解释您的问题：</p>
+									<p class="p-lg">您的微信号:</p>
+									<input type="text" name="wechat" id="wechat" class="form-control email" placeholder="(有效的微信号可以让我们最快速度联系您)">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">其他您想讲的:</p>
 									<textarea class="form-control message" name="message" id="message" rows="6"
-										placeholder="我的问题是..." required="required" data-validation-required-message="Please enter message."></textarea>
+										placeholder="*(更好的描述您的AI需求，会让我们更快速的提供帮助，您也可以联系我们右下角的AI助手了解我们更多的信息)" required="required" data-validation-required-message="Please enter message."></textarea>
 										<p class="help-block text-danger"></p>
 								</div>
 

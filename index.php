@@ -81,7 +81,7 @@
 
 								<!-- Text -->
 								<div class="fbox-txt">
-									<h6 class="s-22 w-700">AI数字员工</h6>
+									<h6 class="s-22 w-700">AI数字员工计划</h6>
 									<p>根据企业业务流程，定制化打造AI数字员工，提升工作效率。
 									</p>
 								</div>
@@ -100,7 +100,7 @@
 
 								<!-- Text -->
 								<div class="fbox-txt">
-									<h6 class="s-22 w-700">AI大语言模型客服</h6>
+									<h6 class="s-22 w-700">大语言模型AI客服</h6>
 									<p>基于先进大语言模型，24/7随时随地，准确快速解答客户问询。
 									</p>
 								</div>
@@ -122,7 +122,7 @@
 								<!-- Text -->
 								<div class="fbox-txt">
 									<h6 class="s-22 w-700">AI知识类服务</h6>
-									<p>提供最前沿AI资讯，针对企业打造定制化课程。</p>
+									<p>提供最前沿AI资讯，针对企业打造定制化AI升级课程。</p>
 								</div>
 
 							</div>
@@ -176,8 +176,8 @@
 										</div>	<!-- End Icon -->
 										<!-- Text -->
 										<div class="fbox-txt">
-											<h5 class="s-20 w-700">企业AI升级方案评估</h5>
-											<p>对企业的现有业务和技术使用情况进行全面评估。</p>
+											<h5 class="s-20 w-700">AI升级方案评估</h5>
+											<p>对企业的现有业务和技术进行全面评估，分析企业可以利用的AI工具并输出可行性报告。</p>
 										</div>
 			 						</div>
 			 						<!-- FEATURE BOX #2 -->
@@ -195,8 +195,8 @@
 										</div>	<!-- End Icon -->
 										<!-- Text -->
 										<div class="fbox-txt">
-											<h5 class="s-20 w-700">AI数据知识库梳理和构建</h5>
-											<p>收集客户培训文档和知识，协助构建企业知识库架构和体系。</p>
+											<h5 class="s-20 w-700">AI数据知识库构建</h5>
+											<p>梳理企业内部业务培训文档和知识信息，帮助企业构建匹配大语言模型的AI数据知识库。</p>
 										</div>
 			 						</div>
 			 					</div>
@@ -217,7 +217,7 @@
 										<!-- Text -->
 										<div class="fbox-txt">
 											<h5 class="s-20 w-700">AI数字员工定制</h5>
-											<p>拆解企业业务和管理流程，定制企业专属的AI数字员工。</p>
+											<p>拆解企业业务流程，借助AI生图，AI生文，AI生成策略等能力，定制企业专属的AI数字员工。</p>
 										</div>
 			 						</div>
 			 						<!-- FEATURE BOX #4 -->
@@ -235,8 +235,8 @@
 										</div>	<!-- End Icon -->
 										<!-- Text -->
 										<div class="fbox-txt">
-											<h5 class="s-20 w-700">高度定制化或私有化部署</h5>
-											<p>定制化，私有化部署和开发，配合公司打造AI数字员工团队。</p>
+											<h5 class="s-20 w-700">定制化或私有部署</h5>
+											<p>我司针对企业特定需求会借助最新的AutoGPT及RPA控制算法打造更为复杂的AI数字员工团队。</p>
 										</div>
 			 						</div>
 			 					</div>
@@ -245,8 +245,7 @@
 					</div>	<!-- END FEATURES-13 WRAPPER -->
 					<!-- TEXT BLOCK -->	
 					<div class="col-md-5 order-first order-md-2">
-						<div class="txt-block left-column wow fadeInLeft">
-
+						<div class="txt-block left-column wow fadeInLeft" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 							<h5>案例：AI数字招聘专员</h5>
 							<!-- TEXT BLOCK -->	
 						<div>
@@ -265,7 +264,7 @@
 									<!-- Text -->
 									<div class="cbox-2-txt">
 										<h5 class="s-22 w-700">AI自动化Mapping</h5>
-										<p>提供行业/公司/人员类型，AI招聘专员自动搜索、总结、统计，并导出Excel表格。开启对话功能，发送定制消息，了解离职意向或行业信息。
+										<p>针对企业对竞争对手的Mapping需求，AI招聘专员可自动搜索、总结、统计招聘网站上的数据信息，并导出表格。
 										</p>
 									</div>
 
@@ -284,7 +283,7 @@
 									<!-- Text -->
 									<div class="cbox-2-txt">
 										<h5 class="s-22 w-700">AI自主招聘</h5>
-										<p>提供公司信息和岗位要求，AI输出招聘策略、筛选条件和关键词，自动筛选匹配人选。开启对话功能，发送背景匹配邀约消息，完成初步邀约。
+										<p>AI招聘专员可以根据公司要求完成自主招聘，包括生成招聘策略，在招聘网站和候选人开展对话并完成面试邀约等工作。
 										</p>
 									</div>
 
@@ -302,7 +301,7 @@
 									<!-- Text -->
 									<div class="cbox-2-txt">
 										<h5 class="s-22 w-700">AI人选匹配筛选</h5>
-										<p class="mb-0">对于主动投递的人选，AI将自动匹配公司、岗位要求等信息，完成人选排序和整理工作，提供匹配和不匹配理由，方便人类员工完成二次审核。
+										<p class="mb-0">对于主动投递的人选，AI招聘专员将自动匹配岗位要求，对人选进行排序，判断其是否匹配并提供推荐理由。
 										</p>
 									</div>
 									
@@ -482,7 +481,7 @@
 						<div class="section-title">
 
 							<!-- Title -->
-							<h2 class="s-50 w-700" style="z-index: 100">AI工具展示</h2>
+							<h2 class="s-50 w-700" style="z-index: 100">AI工具助手体验</h2>
 
 						</div>
 					</div>

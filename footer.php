@@ -24,7 +24,7 @@
 									<p><a href="https://anyhelper.net" target="_blank">AnyHelper</a></p>
 								</li>
 								<li>
-									<p><a href="http://www.inchurui.com/" target="_blank">ASK to AH.AI</a></p>
+									<p><a href="https://cariboss.id/" target="_blank">CariBoss</a></p>
 								</li>
 								<li>
 									<p><a href="https://anychinavisa.com/en/score.php" target="_blank">Work Visa Evaluation System</a>
@@ -41,15 +41,15 @@
 						<div class="footer-links fl-2">
 
 							<!-- Title -->
-							<h6 class="s-17">Service</h6>
+							<h6 class="s-17">Brand</h6>
 
 							<!-- Links -->
 							<ul class="foo-links clearfix">
 								<li>
-									<p><a href="https://anychinavisa.com/en" target="_blank">AnyVisa</a></p>
+									<p><a href="https://anyhelper.net" target="_blank">AnyHelper</a></p>
 								</li>
 								<li>
-									<p><a href="https://www.anychinajob.com/"  target="_blank">AnyJob</a></p>
+									<p><a href="https://www.visaofchina.com/"  target="_blank">VisaOfChina</a></p>
 								</li>
 								<li>
 									<p><a href="https://www.inchurui.com/" target="_blank">初锐国际</a></p>
@@ -65,19 +65,18 @@
 						<div class="footer-links fl-3">
 
 							<!-- Title -->
-							<h6 class="s-17">Cooperation</h6>
+							<h6 class="s-17">Platform</h6>
 
 							<!-- Links -->
 							<ul class="foo-links clearfix">
 								<li>
-									<p><a href="http://www.sjtusp.com/Home"  target="_blank">Shanghai JiaoTong University Science
-											Park</a></p>
+									<p><a href="https://anychinavisa.com/en/score.php"  target="_blank">China Work Visa Evaluation</a></p>
 								</li>
 								<li>
-									<p><a href="https://aiii.global/"  target="_blank">AIII 人工智能国际研究院</a></p>
+									<p><a href="https://www.anychinajob.com/"  target="_blank">AnyJob - China Job Hunting</a></p>
 								</li>
 								<li>
-									<p><a href="https://goglobalgeo.cn/zh-hans/"  target="_blank">Goglobal</a></p>
+									<p><a href="https://cariboss.id/"  target="_blank">CariBoss - Indonesia Job</a></p>
 								</li>
 							</ul>
 

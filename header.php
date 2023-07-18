@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="DSAThemes">
-	<meta name="description" content="AiToB - 你的AI助手">
+	<meta name="description" content="AiToB - 定制AI数字员工">
 	<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -121,18 +121,9 @@
 						<nav class="wsmenu clearfix">
 							<ul class="wsmenu-list nav-theme">
 								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#features-2" target="_parent" class="h-link">AiToB服务</a>
+								<li class="nl-simple" aria-haspopup="true"><a href="index.php#aidigit" target="_parent" class="h-link">AI数字员工计划</a>
 								</li>
 								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#aidigit" target="_parent" class="h-link">AI数字员工</a>
-								</li>
-								
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-1" target="_parent" class="h-link">AI大语言模型客服</a>
-								</li>
-
-								<li class="nl-simple" aria-haspopup="true"><a href="index.php#lnk-3" target="_parent" class="h-link">AI知识类服务</a>
-								</li>
-
 								<li class="nl-simple" aria-haspopup="true"><a href="index.php#integrations-1" target="_parent" class="h-link">AI助手体验</a>
 								</li>
 

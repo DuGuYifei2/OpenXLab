@@ -10,7 +10,9 @@ $(function() {
       // get values from FORM
       var type = $("select#type").val();
       var name = $("input#name").val();
+      var company = $("input#company").val();
       var email = $("input#email").val();
+      var wechat = $("input#wechat").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -25,7 +27,9 @@ $(function() {
         data: {
           type:type,
           name: name,
+          company: company,
           email: email,
+          wechat: wechat,
           message: message
         },
         cache: false,
@@ -33,7 +37,7 @@ $(function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success')
-            .append("<strong>Your message has been sent. </strong>");
+            .append("<strong>我们已经收到了你的申请，我们的AI产品经理会尽快联系您！</strong>");
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
