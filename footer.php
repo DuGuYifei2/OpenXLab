@@ -165,10 +165,10 @@
 		var currentUrl = window.location.href;
 		var index = currentUrl.indexOf("#");
 		if(index != -1) {
-			var id = currentUrl.substr(index);
+			var scrollID = currentUrl.substr(index);
 			$(document).ready(function() {
 				$('html, body').animate({
-					scrollTop: $(id).offset().top
+					scrollTop: $(scrollID).offset().top
 				}, 500);
 			});
 		}
