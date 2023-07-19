@@ -431,7 +431,7 @@
 
 						<!-- TEXT BLOCK -->	
 						<div class="col-md-6 order-last order-md-2">
-						<div class="txt-block left-column wow fadeInRight" style="margin-left: 40px">
+						<div class="txt-block left-column wow fadeInRight" style="margin-left: 40px; margin-right: 40px;">
 							<!-- List -->	
 							<ul class="simple-list">
 								<li class="list-item">
