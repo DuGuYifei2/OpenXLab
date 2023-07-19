@@ -148,54 +148,23 @@
 
 	<!-- EXTERNAL SCRIPTS
 		============================================= -->
+	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="MzlYak00RWhqVkpkS2Q0T21NUnR1Zz09" defer></script>
 	<script src="js/jquery-3.7.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr.custom.js"></script>
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/menu.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/request-form.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/lunar.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
-
 	<!-- Custom Script -->
 	<script src="js/custom.js"></script>
-
-
-	<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-	<!--
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		-->
-
-	<script>
-		$(document).ready(function () {
-			$("#video").click(function () {
-				$("#video").get(0).play();
-				$("#video").attr("controls", "controls");
-				$("#video").attr("poster", "");
-			});
-		});
-	</script>
-	<script src="js/wechat.js" type="text/javascript"></script>
 	<script src="js/TweenMax.min.js"></script>
 	<script src="js/slide.js"></script>
-	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="MzlYak00RWhqVkpkS2Q0T21NUnR1Zz09" defer></script>
 	<script src="js/chat.js"></script>
+	<script src="js/wechat.js" type="text/javascript"></script>
 </body>
 
 

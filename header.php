@@ -16,20 +16,12 @@
 	<link rel="apple-touch-icon" href="images/favicon-32x32.png">
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-
 	<link href="css/flaticon.css" rel="stylesheet">
-
 	<link href="css/menu.css" rel="stylesheet">
 	<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
-	<link href="css/owl.theme.default.min.css" rel="stylesheet">
-	<link href="css/lunar.css" rel="stylesheet">
-
 	<link href="css/animate.css" rel="stylesheet">
-
 	<link href="css/blue-theme.css" rel="stylesheet">
-
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/slide.css" rel="stylesheet">
 	<style>
