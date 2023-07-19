@@ -81,6 +81,12 @@
 			margin-bottom: 8px;
 			scale: 1.2;
 		}
+
+		@media only screen and (min-width: 768px) {
+			.s-22-pc {
+				font-size: 22px;
+			}
+		}
 	</style>
 </head>
 <body>

@@ -435,19 +435,19 @@
 							<!-- List -->	
 							<ul class="simple-list">
 								<li class="list-item">
-									<p style="font-size: 22px;">AI知识类服务提供从基础到深度的AI学习资源。<br><br>
+									<p class="s-22-pc">AI知识类服务提供从基础到深度的AI学习资源。<br><br>
 									</p>
 								</li>
 								<li class="list-item">
-									<p style="font-size: 22px;">免费AI资讯和定期线下分享会紧跟AI行业动态。<br><br>
+									<p class="s-22-pc">免费AI资讯和定期线下分享会紧跟AI行业动态。<br><br>
 									</p>
 								</li>
 								<li class="list-item">
-									<p style="font-size: 22px;">由AI专家亲自授课的线上/线下付费专业课程。<br><br>
+									<p class="s-22-pc">由AI专家亲自授课的线上/线下付费专业课程。<br><br>
 									</p>
 								</li>
 								<li class="list-item">
-									<p style="font-size: 22px;">帮助您和您的企业深化AI知识，提升实践能力。
+									<p class="s-22-pc">帮助您和您的企业深化AI知识，提升实践能力。
 									</p>
 								</li>
 							</ul>
