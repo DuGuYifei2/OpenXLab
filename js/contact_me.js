@@ -32,6 +32,7 @@ $(function() {
           wechat: wechat,
           message: message
         },
+        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
         cache: false,
         success: function(res) {
           // Success message
