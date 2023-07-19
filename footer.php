@@ -161,6 +161,18 @@
 	<script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 	<!-- Custom Script -->
 	<script src="js/custom.js"></script>
+	<script>
+		var currentUrl = window.location.href;
+		var index = currentUrl.indexOf("#");
+		if(index != -1) {
+			var id = currentUrl.substr(index);
+			$(document).ready(function() {
+				$('html, body').animate({
+					scrollTop: $(id).offset().top
+				}, 500);
+			});
+		}
+	</script>
 	<script src="js/TweenMax.min.js"></script>
 	<script src="js/slide.js"></script>
 	<script src="js/chat.js"></script>
