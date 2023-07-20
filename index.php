@@ -135,9 +135,81 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END FEATURES-2 -->
+
+		<!-- INTEGRATIONS-1
+			============================================= -->
+			<section id="integrations-1" class="pt-100 integrations-section">
+			<div class="container">
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div class="section-title">
+
+							<!-- Title -->
+							<h2 class="s-50 w-700" style="z-index: 100">AI工具助手体验</h2>
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- INTEGRATIONS-1 WRAPPER -->
+				<div class="integrations-1-wrapper" style="display:flex; flex-direction:column; align-items:center; height: 700px">
+					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/OWxmMzF5elJNa3hmcEh5WkFxSEhaZz09" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/eGxEQXl3WHUwSXlza01LSW5OWC9kQT09" style="display: none;"></iframe>
+					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/bzV4T0wyaDNlOFN0QkNLckxEeEJDQT09" style="display: none;"></iframe>
+					<div class="slide-container" id="officer-cards">
+						<div class="img-holder">
+							<div class="card-1">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-1"></div>
+									<div class="employee-text">
+										<div>姓名: Jessica</div>
+										<div>职位: HR</div>
+										<div>职能: 撰写英文JD</div>
+									</div>
+									<button id="chat-btn-1" class="start-chat-btn" onclick="startChat(1)">Chat</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="img-holder">
+							<div class="card-2">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-2"></div>
+									<div class="employee-text">
+										<div>姓名: John Doe</div>
+										<div>职位: 专业翻译</div>
+										<div>职能: 可以将任意语言翻译为英文</div>
+									</div>
+									<button id="chat-btn-2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
+								</div>
+							</div>
+						</div> 
+
+						<div class="img-holder">
+							<div class="card-3">
+								<div class="employee-info">
+									<div class="employee-image" id="employee-image-3"></div>
+									<div class="employee-text">
+										<div>姓名: Rebecca</div>
+										<div>职位: 文案编辑</div>
+										<div>职能: 小红书营销助手</div>
+									</div>
+									<button id="chat-btn-3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
+								</div>
+							</div>
+						</div> 
+					</div>
+					
+				</div> <!-- END INTEGRATIONS-1 WRAPPER -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END INTEGRATIONS-1 -->
+
 		<!-- DIVIDER LINE -->
-		<br>
-		<br>
 		<br>
 		<hr class="divider"  id="aidigit" >
 		<br>
@@ -468,83 +540,6 @@
 
 				</div>	   <!-- End container -->
 			</section>	<!-- END TEXT CONTENT -->
-
-
-		<!-- INTEGRATIONS-1
-			============================================= -->
-		<section id="integrations-1" class="pt-100 integrations-section">
-			<div class="container">
-
-				<!-- SECTION TITLE -->
-				<div class="row justify-content-center">
-					<div class="col-md-8">
-						<div class="section-title">
-
-							<!-- Title -->
-							<h2 class="s-50 w-700" style="z-index: 100">AI工具助手体验</h2>
-
-						</div>
-					</div>
-				</div>
-
-
-				<!-- INTEGRATIONS-1 WRAPPER -->
-				<div class="integrations-1-wrapper" style="display:flex; flex-direction:column; align-items:center; height: 700px">
-					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/OWxmMzF5elJNa3hmcEh5WkFxSEhaZz09" style="display: none;"></iframe>
-					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/eGxEQXl3WHUwSXlza01LSW5OWC9kQT09" style="display: none;"></iframe>
-					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/bzV4T0wyaDNlOFN0QkNLckxEeEJDQT09" style="display: none;"></iframe>
-					<div class="slide-container" id="officer-cards">
-						<div class="img-holder">
-							<div class="card-1">
-								<div class="employee-info">
-									<div class="employee-image" id="employee-image-1"></div>
-									<div class="employee-text">
-										<div>姓名: Jessica</div>
-										<div>职位: HR</div>
-										<div>职能: 撰写英文JD</div>
-									</div>
-									<button id="chat-btn-1" class="start-chat-btn" onclick="startChat(1)">Chat</button>
-								</div>
-							</div>
-						</div>
-
-						<div class="img-holder">
-							<div class="card-2">
-								<div class="employee-info">
-									<div class="employee-image" id="employee-image-2"></div>
-									<div class="employee-text">
-										<div>姓名: John Doe</div>
-										<div>职位: 专业翻译</div>
-										<div>职能: 可以将任意语言翻译为英文</div>
-									</div>
-									<button id="chat-btn-2" class="start-chat-btn" onclick="startChat(2)">Chat</button>
-								</div>
-							</div>
-						</div> 
-
-						<div class="img-holder">
-							<div class="card-3">
-								<div class="employee-info">
-									<div class="employee-image" id="employee-image-3"></div>
-									<div class="employee-text">
-										<div>姓名: Rebecca</div>
-										<div>职位: 文案编辑</div>
-										<div>职能: 小红书营销助手</div>
-									</div>
-									<button id="chat-btn-3" class="start-chat-btn" onclick="startChat(3)">Chat</button>
-								</div>
-							</div>
-						</div> 
-					</div>
-					
-				</div> <!-- END INTEGRATIONS-1 WRAPPER -->
-
-
-			</div> <!-- End container -->
-		</section> <!-- END INTEGRATIONS-1 -->
-
-
-
 
 		<!-- TEXT CONTENT
 			============================================= -->
