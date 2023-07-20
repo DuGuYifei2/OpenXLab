@@ -7,10 +7,7 @@ function startChat(id) {
     closeButton.classList.add("r-04");
     closeButton.classList.add("btn--theme");
     closeButton.classList.add("hover--theme");
-    closeButton.style.position = "absolute";
-    closeButton.style.bottom = "-100px";
-    closeButton.style.left = "50%";
-    closeButton.style.transform = "translateX(-50%)";
+    closeButton.style.marginTop = "45px";
     closeButton.style.transition = "opacity 1s";
     closeButton.onclick = function () {
         iframe.style.transition = "opacity 1s";
@@ -28,7 +25,7 @@ function startChat(id) {
     };
     iframe.style.opacity = "0";
     iframe.style.width = officerCards.offsetWidth + "px";
-    iframe.style.height = officerCards.offsetHeight + "px";
+    iframe.style.height = officerCards.scrollHeight - closeButton.scrollHeight + "px";
     officerCards.style.opacity = "0";
     setTimeout(function () {
         officerCards.style.display = "none";

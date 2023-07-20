@@ -13,7 +13,8 @@
 .slide-container {
     margin: 0 0;
     position: relative;
-    height: 506px;
+    padding-top: 100px;
+    height: 600px;
     width: 100%;
     top: 50px;
     display: flex;

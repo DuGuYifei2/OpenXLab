@@ -472,7 +472,7 @@
 
 		<!-- INTEGRATIONS-1
 			============================================= -->
-		<section id="integrations-1" class="py-100 integrations-section">
+		<section id="integrations-1" class="pt-100 integrations-section">
 			<div class="container">
 
 				<!-- SECTION TITLE -->
@@ -489,7 +489,7 @@
 
 
 				<!-- INTEGRATIONS-1 WRAPPER -->
-				<div class="integrations-1-wrapper">
+				<div class="integrations-1-wrapper" style="display:flex; flex-direction:column; align-items:center; height: 700px">
 					<iframe class="chat-iframe" id="chat-iframe-1" src="https://embed.aitob.ai/chatbot-iframe/OWxmMzF5elJNa3hmcEh5WkFxSEhaZz09" style="display: none;"></iframe>
 					<iframe class="chat-iframe" id="chat-iframe-2" src="https://embed.aitob.ai/chatbot-iframe/eGxEQXl3WHUwSXlza01LSW5OWC9kQT09" style="display: none;"></iframe>
 					<iframe class="chat-iframe" id="chat-iframe-3" src="https://embed.aitob.ai/chatbot-iframe/bzV4T0wyaDNlOFN0QkNLckxEeEJDQT09" style="display: none;"></iframe>
@@ -548,7 +548,7 @@
 
 		<!-- TEXT CONTENT
 			============================================= -->
-		<section id="about-us" class="pt-100 ct-02 content-section division">
+		<section id="about-us" class="pt-50 ct-02 content-section division">
 			<div class="container">
 				<div class="row d-flex align-items-center">
 
