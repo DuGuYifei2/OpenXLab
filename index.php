@@ -1,4 +1,23 @@
 <?php include('header.php'); ?>
+	<div id="input-box" style="display: none; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1000;">
+	<div style="position: fixed; width: 400px; margin: auto; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); padding: 24px;">
+		<h2 style="font-size: 24px; font-weight: bold; margin-bottom: 16px;">首次使用请完善信息</h2>
+		<div style="margin-bottom: 16px;">
+		<label for="name-input" style="font-weight: bold; margin-bottom: 8px; display: block;">姓名</label>
+		<input id="name-input" type="text" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 8px;" placeholder="请输入您的姓名">
+		<p id="name-error" style="color: #f00; margin-top: 8px; display: none;">姓名不能为空或包含特殊字符</p>
+		</div>
+		<div style="margin-bottom: 16px;">
+		<label for="email-input" style="font-weight: bold; margin-bottom: 8px; display: block;">邮箱</label>
+		<input id="email-input" type="email" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 8px;" placeholder="请输入您的邮箱">
+		<p id="email-error" style="color: #f00; margin-top: 8px; display: none;">邮箱不能为空或格式不正确</p>
+		</div>
+		<div style="display: flex; justify-content: center;">
+		<button id="submit-button" style="background-color: #007bff; color: #fff; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 8px;">提交</button>
+		<button id="close-button" style="background-color: #ccc; color: #333; font-weight: bold; padding: 8px 16px; border-radius: 4px;">关闭</button>
+		</div>
+	</div>
+	</div>
 	<!-- HERO-6
 			============================================= -->
 		<section id="hero-6" class="hero-section">
@@ -208,6 +227,168 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END INTEGRATIONS-1 -->
+
+		<section id="integrations-1" class="pt-100 integrations-section">
+			<div class="container">
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div class="section-title">
+
+							<!-- Title -->
+							<h2 class="s-50 w-700" style="z-index: 100">其他AI工具体验</h2>
+
+						</div>
+					</div>
+				</div>
+				
+				<div class="tool-container">
+					<div class="left">
+						<button class="active" data-target="ai-word-translate" onclick="showContent('ai-word-translate')">AI Microsoft Word 翻译</button>
+						<button data-target="coming-soon" onclick="showContent('coming-soon')">Coming soon...</button>
+					</div>
+					<div class="right">
+						<div id="ai-word-translate">
+							<form id="tran_form">
+								<input type="file" name="file" id="tran_file" accept=".docx">
+            					<label for="file" id="tran_label">点击/拖拽docx</label>
+            					<button id="tran_but" onclick="translateConvert()">提交</button>
+							</form>
+						</div>
+						<div id="coming-soon" style="display: none;">
+							<h2>Coming soon...</h2>
+							<p>这个界面即将推出。</p>
+						</div>
+					</div>
+				</div>
+				<script>
+					function showInput() {
+						let inputBox = document.getElementById('input-box');
+						inputBox.style.display = 'flex';
+					}
+					function closeInput() {
+						let inputBox = document.getElementById('input-box');
+						inputBox.style.display = 'none';
+					}
+					function showContent(id) {
+						var contents = document.querySelectorAll('.right > div');
+						for (var i = 0; i < contents.length; i++) {
+							contents[i].style.display = 'none';
+						}
+						document.getElementById(id).style.display = 'block';
+						var buttons = document.querySelectorAll('.left > button');
+						for (var i = 0; i < buttons.length; i++) {
+							buttons[i].classList.remove('active');
+						}
+						document.querySelector('.left > button[data-target="' + id + '"]').classList.add('active');
+					}
+					let elink = document.createElement('a');
+					elink.download = 'output.docx';
+					
+					function sendTranslationFile(file) {
+					let formData = new FormData();
+					formData.append('file', file);
+					let namemail = localStorage.getItem('trtk');
+					formData.append('name', namemail.split(':')[0]);
+					formData.append('email', namemail.split(':')[1]);
+
+					fetch('/aitools/translate.php', {
+						method: 'POST',
+						body: formData
+					})
+					.then(function(response) {
+						if (response.ok) {
+						let header = response.headers.get('Content-Type');
+						console.log(header);
+						return response.blob();
+						} else {
+						console.log('An error occurred when convert word file!');
+						}
+					})
+					.then(function(blob) {
+						let blobUrl = URL.createObjectURL(blob);
+						elink.href = blobUrl;
+						elink.click();
+						URL.revokeObjectURL(blobUrl);
+					})
+					.catch(function(error) {
+						console.log('An error occurred when convert word file!');
+					});
+					}
+					function translateConvert() {
+						let file = document.getElementById('tran_file').files[0];
+						if (file) {
+							if (localStorage.getItem('trtk') == null) {
+								showInput();
+								let nameInput = document.getElementById('name-input');
+								let emailInput = document.getElementById('email-input');
+								let nameError = document.getElementById('name-error');
+								let emailError = document.getElementById('email-error');
+								let submitButton = document.getElementById('submit-button');
+								submitButton.addEventListener('click', function() {
+									let name = nameInput.value.trim();
+									let email = emailInput.value.trim();
+									if (name === '' || /[^a-zA-Z0-9_\u4e00-\u9fa5]/.test(name)) {
+										nameError.style.display = 'block';
+										return;
+									} else {
+										nameError.style.display = 'none';
+									}
+									if (email === '' || !/^[^\s@:]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+										emailError.style.display = 'block';
+										return;
+									} else {
+										emailError.style.display = 'none';
+									}
+									closeInput();
+									localStorage.setItem('trtk', name + ':' + email);
+									sendTranslationFile(file);
+								});
+								return;
+							}
+							sendTranslationFile(file);
+						}
+					}
+				</script>
+				<script>
+					let tran_label = document.getElementById('tran_label');
+					let tran_form = document.getElementById('tran_form');
+					tran_form.addEventListener('dragover', function(e) {
+						e.preventDefault();
+						tran_label.classList.add('dragover');
+					});
+					tran_form.addEventListener('dragleave', function(e) {
+						e.preventDefault();
+						tran_label.classList.remove('dragover');
+					});
+					tran_form.addEventListener('drop', function(e) {
+						e.preventDefault();
+						tran_label.classList.remove('dragover');
+						let file = e.dataTransfer.files[0];
+						let input = document.getElementById('tran_file');
+						if(file.type != 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
+							alert('请上传docx文件');
+							return;
+						}
+						input.files = e.dataTransfer.files;
+						tran_label.textContent = file.name;
+					});
+					tran_form.addEventListener('submit', function(e) {
+						e.preventDefault();
+					})
+					tran_label.addEventListener('click', function(e) {
+						e.preventDefault();
+						document.getElementById('tran_file').click();
+					});
+					let tran_file = document.getElementById('tran_file');
+					tran_file.addEventListener('change', function(e){
+						let file = e.target.value;
+						tran_label.textContent = file.slice(file.lastIndexOf('\\') + 1);
+					})
+				</script>
+			</div>
+		</section>
 
 		<!-- DIVIDER LINE -->
 		<br>

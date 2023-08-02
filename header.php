@@ -24,6 +24,7 @@
 	<link href="css/blue-theme.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/slide.css" rel="stylesheet">
+	<link href="css/aitool.css" rel="stylesheet">
 	<style>
 		.header-center {
 			font-size: 1.2rem;
