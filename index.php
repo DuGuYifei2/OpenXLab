@@ -324,7 +324,6 @@
 						.then(function (response) {
 							if (response.ok) {
 								let header = response.headers.get('Content-Type');
-								console.log(header);
 								return response.blob();
 							} else {
 								console.log('An error occurred when convert word file!');

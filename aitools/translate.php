@@ -22,6 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Length: ' . $response_header['download_content_length']);
     header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
     header('Content-Disposition: attachment; filename=output.docx');
+    header('Connection: keep-alive');
+    header('Keep-Alive: timeout=15, max=100');
     echo $server_response;
     exit;
 }
