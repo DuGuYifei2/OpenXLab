@@ -3,11 +3,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $file = $_FILES['file']['tmp_name'];
     $name = $_POST['name'];
     $email = $_POST['email'];
+    $ip = $_POST['ip'];
     $ch = curl_init();
     $post_data = array(
         'file' => new CURLFile($file),
         'name' => $name,
         'email' => $email,
+        'ip' => $ip
     );
     curl_setopt($ch, CURLOPT_URL, 'https://translate.aitob.ai/api/translator/convert');
     curl_setopt($ch, CURLOPT_POST, 1);
