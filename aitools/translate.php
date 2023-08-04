@@ -19,15 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     curl_setopt($ch, CURLOPT_TCP_KEEPIDLE, 120);
     
     $server_response = curl_exec($ch);
-    $http_status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
-    
-    if ($http_status != 200) {
-        http_response_code($http_status);
-        echo "API Request Error: HTTP Status $http_status";
-        exit;
-    }
-    
 
     // Set appropriate headers
     header('Content-Length: ' . strlen($server_response));
