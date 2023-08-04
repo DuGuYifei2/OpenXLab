@@ -250,30 +250,21 @@
 				<div class="section-title">
 
 					<!-- Title -->
-					<h2 class="s-50 w-700" style="z-index: 100">其他AI工具体验</h2>
+					<h2 class="s-50 w-700" style="z-index: 100">AI翻译工具体验</h2>
 
 				</div>
 			</div>
 		</div>
 
 		<div class="tool-container">
-			<div class="left">
-				<button class="active" data-target="ai-word-translate" onclick="showContent('ai-word-translate')">AI
-					Microsoft Word 翻译</button>
-				<button data-target="coming-soon" onclick="showContent('coming-soon')">Coming soon...</button>
-			</div>
-			<div class="right">
-				<div id="ai-word-translate">
-					<form id="tran_form">
-						<input type="file" name="file" id="tran_file" accept=".docx">
-						<label for="file" id="tran_label">点击/拖拽docx</label>
-						<button id="tran_but" onclick="translateConvert()">提交</button>
-					</form>
-				</div>
-				<div id="coming-soon" style="display: none;">
-					<h2>Coming soon...</h2>
-					<p>这个界面即将推出。</p>
-				</div>
+			<div class="title">选择文件</div>
+			<div class="subtitle">请上传你要翻译的中文或者其他语言的文件，我们会翻译成英文文档，目前只支持 .docx 文件。</div>
+			<div class="file-input">
+				<label for="file" class="file-label">点击按钮上传文件</label>
+				<input type="file" name="file" id="tran_file" accept=".docx" style="display:none;">
+				<button class="file-button" id="file-button">浏览您的计算机</button>
+				<button class="translate-button" id="tran_but" onclick="translateConvert()">翻译</button>
+				<a href="#" class="download-button" id="download-button" download="output.docx" onclick="downloadButtonClick()">翻译完成，点击下载</a>
 			</div>
 		</div>
 		<script>
@@ -285,33 +276,31 @@
 				let inputBox = document.getElementById('input-box');
 				inputBox.style.display = 'none';
 			}
-			function showContent(id) {
-				var contents = document.querySelectorAll('.right > div');
-				for (var i = 0; i < contents.length; i++) {
-					contents[i].style.display = 'none';
-				}
-				document.getElementById(id).style.display = 'block';
-				var buttons = document.querySelectorAll('.left > button');
-				for (var i = 0; i < buttons.length; i++) {
-					buttons[i].classList.remove('active');
-				}
-				document.querySelector('.left > button[data-target="' + id + '"]').classList.add('active');
-			}
-			let elink = document.createElement('a');
-			elink.download = 'output.docx';
+
 			const getIP = async () => {
 				let response = await fetch('https://api.ipify.org?format=json');
 				let data = await response.json();
 				return data.ip;
 			}
+			
+			let downloadButton = document.getElementById('download-button');
+			let fileInput = document.getElementById('tran_file');
+			let fileButton = document.getElementById('file-button');
+			let translateButton = document.getElementById('tran_but');
 
+			function downloadButtonClick() {
+				downloadButton.style.display = 'none';
+				translateButton.href = '#';
+				fileButton.style.display = 'block';
+			}
 			function sendTranslationFile(file) {
+				//translateButton.style.display = 'none';
+				translateButton.innerHTML = '<i class="fa fa-spinner fa-spin"></i> 正在翻译...';
 				let formData = new FormData();
 				formData.append('file', file);
 				let namemail = localStorage.getItem('trtk');
 				formData.append('name', namemail.split(':')[0]);
 				formData.append('email', namemail.split(':')[1]);
-
 
 				(async function () {
 					let ip = await getIP();
@@ -331,9 +320,10 @@
 						})
 						.then(function (blob) {
 							let blobUrl = URL.createObjectURL(blob);
-							elink.href = blobUrl;
-							elink.click();
-							URL.revokeObjectURL(blobUrl);
+							translateButton.style.display = 'none';
+							translateButton.innerHTML = "翻译";
+							downloadButton.href = blobUrl;
+							downloadButton.style.display = 'block';
 						})
 						.catch(function (error) {
 							console.log('An error occurred when convert word file!');
@@ -374,42 +364,20 @@
 					sendTranslationFile(file);
 				}
 			}
-		</script>
-		<script>
-			let tran_label = document.getElementById('tran_label');
-			let tran_form = document.getElementById('tran_form');
-			tran_form.addEventListener('dragover', function (e) {
-				e.preventDefault();
-				tran_label.classList.add('dragover');
+
+			fileButton.addEventListener('click', () => {
+				fileInput.click();
 			});
-			tran_form.addEventListener('dragleave', function (e) {
-				e.preventDefault();
-				tran_label.classList.remove('dragover');
-			});
-			tran_form.addEventListener('drop', function (e) {
-				e.preventDefault();
-				tran_label.classList.remove('dragover');
-				let file = e.dataTransfer.files[0];
-				let input = document.getElementById('tran_file');
-				if (file.type != 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
-					alert('请上传docx文件');
-					return;
+
+			fileInput.addEventListener('change', () => {
+				if (fileInput.files.length > 0) {
+					const fileName = fileInput.files[0].name;
+					const fileLabel = document.querySelector('.file-label');
+					fileLabel.textContent = fileName;
+					translateButton.style.display = 'block';
+					fileButton.style.display = 'none';
 				}
-				input.files = e.dataTransfer.files;
-				tran_label.textContent = file.name;
 			});
-			tran_form.addEventListener('submit', function (e) {
-				e.preventDefault();
-			})
-			tran_label.addEventListener('click', function (e) {
-				e.preventDefault();
-				document.getElementById('tran_file').click();
-			});
-			let tran_file = document.getElementById('tran_file');
-			tran_file.addEventListener('change', function (e) {
-				let file = e.target.value;
-				tran_label.textContent = file.slice(file.lastIndexOf('\\') + 1);
-			})
 		</script>
 	</div>
 </section>

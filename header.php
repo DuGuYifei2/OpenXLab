@@ -25,6 +25,7 @@
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/slide.css" rel="stylesheet">
 	<link href="css/aitool.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		.header-center {
 			font-size: 1.2rem;
