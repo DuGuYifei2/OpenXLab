@@ -260,7 +260,11 @@
 			<div class="title">选择文件</div>
 			<div class="subtitle">请上传你要翻译的中文或者其他语言的文件，我们会翻译成英文文档，目前只支持 .docx 文件。</div>
 			<div class="file-input">
+				<div style="display: flex; flex-direction: row;vertical-align: bottom;">
 				<label for="file" class="file-label">点击按钮上传文件</label>
+				&nbsp;&nbsp;&nbsp;
+				<div class="clear-button" id="clear-button" style="display: none;"><i class="fa fa-times"></i></div>
+				</div>	
 				<input type="file" name="file" id="tran_file" accept=".docx" style="display:none;">
 				<button class="file-button" id="file-button">浏览您的计算机</button>
 				<button class="translate-button" id="tran_but" onclick="translateConvert()">翻译</button>
@@ -287,6 +291,7 @@
 			let fileInput = document.getElementById('tran_file');
 			let fileButton = document.getElementById('file-button');
 			let translateButton = document.getElementById('tran_but');
+			let clearButton =document.getElementById('clear-button');
 
 			function downloadButtonClick() {
 				downloadButton.style.display = 'none';
@@ -376,7 +381,17 @@
 					fileLabel.textContent = fileName;
 					translateButton.style.display = 'block';
 					fileButton.style.display = 'none';
+					clearButton.style.display = 'block';
 				}
+			});
+
+			clearButton.addEventListener('click', () => {
+				fileInput.value = '';
+				const fileLabel = document.querySelector('.file-label');
+				fileLabel.textContent = '点击按钮上传文件';
+				translateButton.style.display = 'none';
+				fileButton.style.display = 'block';
+				clearButton.style.display = 'none';
 			});
 		</script>
 	</div>

@@ -49,3 +49,6 @@
     cursor: pointer;
     display: none;
 }
+.clear-button {
+    margin-top: -3px;
+}
