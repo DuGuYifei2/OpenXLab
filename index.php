@@ -261,14 +261,15 @@
 			<div class="subtitle">请上传你要翻译的中文或者其他语言的文件，我们会翻译成英文文档，目前只支持 .docx 文件。</div>
 			<div class="file-input">
 				<div style="display: flex; flex-direction: row;vertical-align: bottom;">
-				<label for="file" class="file-label">点击按钮上传文件</label>
-				&nbsp;&nbsp;&nbsp;
-				<div class="clear-button" id="clear-button" style="display: none;"><i class="fa fa-times"></i></div>
-				</div>	
+					<label for="file" class="file-label">点击按钮上传文件</label>
+					&nbsp;&nbsp;&nbsp;
+					<div class="clear-button" id="clear-button" style="display: none;"><i class="fa fa-times"></i></div>
+				</div>
 				<input type="file" name="file" id="tran_file" accept=".docx" style="display:none;">
 				<button class="file-button" id="file-button">浏览您的计算机</button>
 				<button class="translate-button" id="tran_but" onclick="translateConvert()">翻译</button>
-				<a href="#" class="download-button" id="download-button" download="output.docx" onclick="downloadButtonClick()">翻译完成，点击下载</a>
+				<a href="#" class="download-button" id="download-button" download="output.docx"
+					onclick="downloadButtonClick()">翻译完成，点击下载</a>
 			</div>
 		</div>
 		<script>
@@ -286,17 +287,22 @@
 				let data = await response.json();
 				return data.ip;
 			}
-			
+
 			let downloadButton = document.getElementById('download-button');
 			let fileInput = document.getElementById('tran_file');
 			let fileButton = document.getElementById('file-button');
 			let translateButton = document.getElementById('tran_but');
-			let clearButton =document.getElementById('clear-button');
+			let clearButton = document.getElementById('clear-button');
 
 			function downloadButtonClick() {
 				downloadButton.style.display = 'none';
 				translateButton.href = '#';
+				fileInput.value = '';
+				const fileLabel = document.querySelector('.file-label');
+				fileLabel.textContent = '点击按钮上传文件';
+				translateButton.style.display = 'none';
 				fileButton.style.display = 'block';
+				clearButton.style.display = 'none';
 			}
 			function sendTranslationFile(file) {
 				//translateButton.style.display = 'none';
@@ -313,14 +319,30 @@
 
 					fetch('/aitools/translate.php', {
 						method: 'POST',
-						body: formData
+						body: formData,
 					})
 						.then(function (response) {
 							if (response.ok) {
 								let header = response.headers.get('Content-Type');
 								return response.blob();
+							} else if (response == 403) {
+								alert('由于请求过多，受资源限制，您的每日翻译次数已经用完，请明天再来或者联系我们获取更多翻译次数！');
+								translateButton.style.display = 'none';
+								translateButton.innerHTML = "翻译";
+								fileInput.value = '';
+								const fileLabel = document.querySelector('.file-label');
+								fileLabel.textContent = '点击按钮上传文件';
+								fileButton.style.display = 'block';
+								clearButton.style.display = 'none';
 							} else {
 								console.log('An error occurred when convert word file!');
+								translateButton.style.display = 'none';
+								translateButton.innerHTML = "翻译";
+								fileInput.value = '';
+								const fileLabel = document.querySelector('.file-label');
+								fileLabel.textContent = '点击按钮上传文件';
+								fileButton.style.display = 'block';
+								clearButton.style.display = 'none';
 							}
 						})
 						.then(function (blob) {
