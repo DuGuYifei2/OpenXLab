@@ -1,6 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: Content-Type");
+header("Connection: Keep-Alive");
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $file = $_FILES['file']['tmp_name'];
     $name = $_POST['name'];
