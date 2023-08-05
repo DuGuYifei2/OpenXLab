@@ -317,9 +317,14 @@
 					let ip = await getIP();
 					formData.append('ip', ip);
 
-					fetch('/aitools/translate.php', {
+					fetch('https://translate.aitob.ai/api/translator/convert', {
 						method: 'POST',
 						body: formData,
+						keepalive: true,
+						headers: {
+							'Access-Control-Allow-Origin': 'https://aitob.ai',
+							'Access-Control-Allow-Credentials': true,
+						}
 					})
 						.then(function (response) {
 							if (response.ok) {
