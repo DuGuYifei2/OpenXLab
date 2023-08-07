@@ -330,7 +330,7 @@
 							if (response.ok) {
 								let header = response.headers.get('Content-Type');
 								return response.blob();
-							} else if (response == 403) {
+							} else if (response.status == 403) {
 								alert('由于请求过多，受资源限制，您的每日翻译次数已经用完，请明天再来或者联系我们获取更多翻译次数！');
 								translateButton.style.display = 'none';
 								translateButton.innerHTML = "翻译";
