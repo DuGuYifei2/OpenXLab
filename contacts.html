@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="DSAThemes">
+	<meta name="description" content="AiToB - 定制AI数字员工">
+	<meta name="keywords"
+		content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>AiToB - 定制AI数字员工</title>
+
+	<link rel="shortcut icon" href="images/AiToB.ico" type="image/x-icon">
+	<link rel="icon" href="images/AiToB.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon-32x32.png">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/flaticon.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link id="effect" href="css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/blue-theme.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/slide.css" rel="stylesheet">
+	<link href="css/aitool.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.header-center {
+			font-size: 1.2rem;
+			margin-left: 40%;
+		}
+
+		#wechat-icon {
+			cursor: pointer;
+		}
+
+		.special-list p:first-child::first-letter {
+			color: #1E90FF;
+			font-size: 2em;
+			float: left;
+			margin: 0 .2em 0 0;
+		}
+
+		#qrcode-popup {
+			width: 30%;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 9998;
+			background-color: white;
+			border: 1px solid black;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			display: none;
+		}
+
+		.qrcode-container {
+			text-align: center;
+			padding: 20px;
+		}
+
+		.qrcode-container img {
+			width: 100%;
+		}
+
+		.close-button {
+			text-align: center;
+			padding: 10px;
+			cursor: pointer;
+		}
+
+		#wechat-png {
+			margin-bottom: 8px;
+			scale: 1.2;
+		}
+
+		@media only screen and (min-width: 768px) {
+			.s-22-pc {
+				font-size: 22px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<!-- PAGE CONTENT
+		============================================= -->
+	<div id="page" class="page font--jakarta">
+		<!-- HEADER
+			============================================= -->
+		<header id="header" class="tra-menu navbar-dark light-hero-header white-scroll">
+			<div class="header-wrapper">
+
+
+				<!-- MOBILE HEADER -->
+				<div class="wsmobileheader clearfix">
+					<span class="smllogo"><img src="images/AiToB.png" alt="mobile-logo"></span>
+					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+				</div>
+
+
+				<!-- NAVIGATION MENU -->
+				<div class="wsmainfull menu clearfix">
+					<div class="wsmainwp clearfix">
+
+
+						<!-- HEADER BLACK LOGO -->
+						<div class="desktoplogo">
+							<a href="index.html" target="_parent" class="logo-black"><img src="images/AiToB.png"
+									alt="logo"></a>
+						</div>
+
+
+						<!-- HEADER WHITE LOGO -->
+						<div class="desktoplogo">
+							<a href="index.html" target="_parent" class="logo-white"><img src="images/AiToB.png"
+									alt="logo"></a>
+						</div>
+
+
+						<!-- MAIN MENU -->
+						<nav class="wsmenu clearfix">
+							<ul class="wsmenu-list nav-theme">
+
+								<li class="nl-simple" aria-haspopup="true"><a href="index.html#aidigit" target="_parent"
+										class="h-link">AI数字员工计划</a>
+								</li>
+
+								<li class="nl-simple" aria-haspopup="true"><a href="index.html#integrations-1"
+										target="_parent" class="h-link">AI助手体验</a>
+								</li>
+
+								<!-- SIGN UP BUTTON -->
+								<li class="nl-simple" aria-haspopup="true">
+									<a href="contacts.html" target="_parent"
+										class="btn r-04 btn--theme hover--theme last-link">Apply</a>
+								</li>
+
+
+							</ul>
+						</nav> <!-- END MAIN MENU -->
+
+
+					</div>
+				</div> <!-- END NAVIGATION MENU -->
+
+
+			</div> <!-- End header-wrapper -->
+		</header> <!-- END HEADER -->
+		<!-- CONTACTS-1
+			============================================= -->
+		<section id="contacts-1" class="pb-50 inner-page-hero contacts-section division">
+			<div class="container">
+
+
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title text-center mb-80">
+
+							<!-- Title -->
+							<h2 class="s-52 w-700">想要体验更多AiToB的产品？联系我们吧！</h2>
+
+							<!-- Text -->
+							<p class="p-lg">我们的AI产品经理会在24小时内联系您！</p>
+
+
+						</div>
+					</div>
+				</div>
+
+
+				<!-- CONTACT FORM -->
+				<div class="row justify-content-center">
+					<div class="col-md-11 col-lg-10 col-xl-8">
+						<div class="form-holder">
+							<form name="contactform" id="contactForm" class="row contact-form" novalidate>
+								<!-- Form Select -->
+								<div class="col-md-12 input-subject">
+									<p class="p-lg">您想要:</p>
+
+									<select class="form-select subject" name="type" id="type"
+										aria-label="Default select example">
+										<option selected value="">(请选择一个您的需求)</option>
+										<option value="免费创建自己的AI助手">免费创建自己的AI助手</option>
+										<option value="免费获取最新AI资讯">免费获取最新AI资讯</option>
+										<option value="获得1个月免费的微信AI助手使用权限">获得1个月免费的微信AI助手使用权限</option>
+										<option value="付费定制AI数字员工">付费定制AI数字员工</option>
+										<option value="付费购买大语言模型AI客服">付费购买大语言模型AI客服</option>
+										<option value="付费定制AI培训课程">付费定制AI培训课程</option>
+										<option value="其他">其他</option>
+									</select>
+								</div>
+
+								<!-- Contact Form Input -->
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的姓名:</p>
+									<input type="text" name="name" id="name" class="form-control name"
+										placeholder="*(您的姓名)" required="required"
+										data-validation-required-message="Please enter your name.">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的公司:</p>
+									<input type="text" name="company" id="company" class="form-control name"
+										placeholder="*(完整的公司全称会让我们第一时间为您提供AI服务)" required="required"
+										data-validation-required-message="Please enter your company.">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的邮件地址:</p>
+									<input type="email" name="email" id="email" class="form-control email"
+										placeholder="*(准确的邮箱可以确保我们能联系到您)" required="required"
+										data-validation-required-message="Please enter your email.">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">您的微信号:</p>
+									<input type="text" name="wechat" id="wechat" class="form-control email"
+										placeholder="(有效的微信号可以让我们最快速度联系您)">
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<div class="col-md-12 form-group">
+									<p class="p-lg">其他您想讲的:</p>
+									<textarea class="form-control message" name="message" id="message" rows="6"
+										placeholder="(更好的描述您的AI需求，会让我们更快速的提供帮助，您也可以联系我们右下角的AI助手了解我们更多的信息)"></textarea>
+									<p class="help-block text-danger"></p>
+								</div>
+
+								<!-- Contact Form Button -->
+								<div class="col-md-12 mt-15 form-btn text-right">
+									<div id="success"></div>
+									<button type="submit" id="sendMessageButton"
+										class="btn btn--theme hover--theme submit">发送</button>
+								</div>
+
+								<!-- Contact Form Message -->
+								<div class="col-lg-12 contact-form-msg">
+									<span class="loading"></span>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div> <!-- END CONTACT FORM -->
+
+
+			</div> <!-- End container -->
+		</section> <!-- END CONTACTS-1 -->
+
+
+		<!-- DIVIDER LINE -->
+		<hr class="divider">
+		<!-- FOOTER-3
+			============================================= -->
+		<footer id="footer-3" class="pt-100 footer">
+			<div class="container">
+
+
+				<!-- FOOTER CONTENT -->
+				<div class="row">
+
+					<!-- FOOTER LINKS -->
+					<div class="col-md-4">
+						<div class="footer-links fl-1">
+
+							<!-- Title -->
+							<h6 class="s-17">Platform</h6>
+
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="https://anychinavisa.com/en/score.php" target="_blank">China Work Visa
+											Evaluation</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.anychinajob.com/" target="_blank">AnyJob - China Job
+											Hunting</a></p>
+								</li>
+								<li>
+									<p><a href="https://cariboss.id/" target="_blank">CariBoss - Indonesia Job</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-xl-3">
+						<div class="footer-links fl-2">
+
+							<!-- Title -->
+							<h6 class="s-17">Brand</h6>
+
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="https://anyhelper.net" target="_blank">AnyHelper</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.visaofchina.com/" target="_blank">VisaOfChina</a></p>
+								</li>
+								<li>
+									<p><a href="https://www.inchurui.com/" target="_blank">初锐国际</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
+
+
+					<!-- FOOTER LINKS -->
+					<div class="col-md-4">
+						<div class="footer-links fl-3">
+
+							<!-- Title -->
+							<h6 class="s-17">Cooperation</h6>
+
+							<!-- Links -->
+							<ul class="foo-links clearfix">
+								<li>
+									<p><a href="http://www.sjtusp.com/Home" target="_blank">Shanghai JiaoTong University
+											Science Park</a></p>
+								<li>
+									<p><a href="https://aiii.global/" target="_blank">AIII 人工智能国际研究院</a></p>
+								</li>
+								<li>
+									<p><a href="https://goglobalgeo.cn/zh-hans/" target="_blank">Goglobal</a></p>
+								</li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
+				</div>
+				<div class="row">
+					<!-- FOOTER LINKS -->
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-links fl-4">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<!-- Social Links -->
+							<ul class="footer-socials ico-25 text-center clearfix"
+								style="scale: 140%; margin-left: 10px;">
+								<li>
+									<a>
+										<span id="wechat-icon">
+											<img src="images/wechat.png" alt="WeChat" id="wechat-png">
+										</span>
+									</a>
+								</li>
+								<li><a href="https://www.facebook.com/anyhelperchina/" target="_blank"><span
+											class="flaticon-facebook"></span></a></li>
+								<li><a href="https://www.instagram.com/anyhelper_shanghai/" target="_blank"><span
+											class="flaticon-instagram"></span></a></li>
+								<li><a href="https://www.youtube.com/watch?v=vz1_7bao-es" target="_blank"><span
+											class="flaticon-youtube"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/anyhelper/" target="_blank"><span
+											class="flaticon-linkedin-logo"></span></a></li>
+							</ul>
+
+						</div>
+					</div> <!-- END FOOTER LINKS -->
+
+
+				</div> <!-- END FOOTER CONTENT -->
+
+				<div id="qrcode-popup">
+					<div class="qrcode-container">
+						<img src="images/qrcode.jpg" alt="QR Code">
+					</div>
+					<div class="close-button">
+						<span>&times;</span>
+					</div>
+				</div>
+
+				<hr> <!-- FOOTER DIVIDER LINE -->
+
+
+				<!-- BOTTOM FOOTER -->
+				<div class="bottom-footer">
+					<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center" style="font-size: 10px;">
+
+
+						<!-- FOOTER COPYRIGHT -->
+						<div class="col">
+							<div class="footer-copyright">
+								<p class="p-sm">&copy; 2023 AnyHelper</p>
+							</div>
+							<span>Address: No. 928 Xikang Road, Room 1109, Chuangzhan Building, Jing'an District,
+								Shanghai<br></span>
+							<span>Email: <a href="mailto:anyhelper@anyhelper.cn"
+									class="footer-link">anyhelper@anyhelper.cn</a><br></span>
+						</div>
+
+
+					</div> <!-- End row -->
+				</div> <!-- END BOTTOM FOOTER -->
+
+
+			</div> <!-- End container -->
+		</footer> <!-- END FOOTER-3 -->
+	</div> <!-- END PAGE CONTENT -->
+
+
+
+
+	<!-- EXTERNAL SCRIPTS
+		============================================= -->
+	<script src="https://embed.aitob.ai/js/embedv1.min.js" id="MzlYak00RWhqVkpkS2Q0T21NUnR1Zz09" defer></script>
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+	<!-- Custom Script -->
+	<script src="js/custom.js"></script>
+	<script>
+		var currentUrl = window.location.href;
+		var index = currentUrl.indexOf("#");
+		if (index != -1) {
+			var scrollID = currentUrl.substr(index);
+			$(document).ready(function () {
+				$('html, body').animate({
+					scrollTop: $(scrollID).offset().top
+				}, 500);
+			});
+		}
+	</script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/slide.js"></script>
+	<script src="js/chat.js"></script>
+	<script src="js/wechat.js" type="text/javascript"></script>
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+</body>
+
+
+</html>
